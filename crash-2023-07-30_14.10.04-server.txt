@@ -1,0 +1,522 @@
+---- Minecraft Crash Report ----
+// Lolis deobfuscated this stacktrace using MCP's stable-39 mappings.
+// Daisy, daisy...
+
+Time: 2023-07-30 14:10:04 CST
+Description: Ticking entity
+
+java.lang.ClassCastException: electroblob.wizardry.entity.projectile.EntityLargeMagicFireball cannot be cast to net.minecraft.entity.EntityLivingBase
+    at net.minecraft.entity.projectile.EntityArrow.redirect$zca000$utBlockFire(EntityArrow.java:1231)
+    at net.minecraft.entity.projectile.EntityArrow.func_184549_a(EntityArrow.java:366)
+    at net.minecraft.entity.projectile.EntityArrow.func_70071_h_(EntityArrow.java:267)
+    at net.minecraft.entity.projectile.EntityTippedArrow.func_70071_h_(SourceFile:98)
+    at net.minecraft.world.World.func_72866_a(World.java:1996)
+    at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:832)
+    at net.minecraft.world.World.func_72870_g(World.java:1958)
+    at net.minecraft.world.World.func_72939_s(World.java:1762)
+    at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:613)
+    at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:767)
+    at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+    at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:279)
+    at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+    at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Entity being ticked --
+  Entity Type: minecraft:arrow (net.minecraft.entity.projectile.EntityTippedArrow)
+  Entity ID: 518
+  Entity Name: 箭
+  Entity's Exact location: -67.71, 71.52, 1020.86
+  Entity's Block location: World: (-68,71,1020), Chunk: (at 12,4,12 in -5,63; contains blocks -80,0,1008 to -65,255,1023), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)
+  Entity's Momentum: -2.10, -1.19, -0.10
+  Entity's Passengers: []
+  Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+  Entity NBT: {Pos:[-67.70814162151653d,71.52000000327826d,1020.8633588553382d],RelativeAABB:[-0.25d,0.0d,-0.25d,0.25d,0.5d,0.25d],Motion:[-2.1031844567075884d,-1.190222350453026d,-0.09776224887276744d],Rotation:[-92.66137f,-29.479656f],FallDistance:0.0f,Fire:1997s,Air:300s,OnGround:0b,Dimension:0,Invulnerable:0b,PortalCooldown:0,UUIDMost:2156672555360927861L,UUIDLeast:-7618331037699868053L,AABB:[-67.95814162151653d,71.52000000327826d,1020.6133588553382d,-67.45814162151653d,72.02000000327826d,1021.1133588553382d],UpdateBlocked:0b,ForgeData:{"endercore:xpboost":-1},ForgeCaps:{"llibrary:extendedentitydatacapability":{},"somanyenchantments:arrow_capabilities":{flameLevel:0,ExplosionPower:0.0f,CanDestroyBlocks:0b,NoDrag:0b,CanRecover:0b,enchlevel:0,didStarFall:0b,isStarFallMade:0b,doesPierceInvulnerability:0b,armorPierceLevel:0,pullPower:0.0f},"aether:entityinfo":{hasSpawnArea:0b},"cavern:portal_cache":{LastDim:[],LastPos:[]},"mujmajnkraftsbettersurvival:arrowproperties":{ExplosionPower:0.0f,CanDestroyBlocks:0b,NoDrag:0b,CanRecover:0b},"somanyenchantments:player_capabilities":{isResurrecting:0b,moralitasDamage:0.0d}},xTile:-1,yTile:-1,zTile:-1,life:0s,inTile:"minecraft:air",inData:0b,shake:0b,inGround:0b,pickup:2b,damage:2.0d,crit:0b}
+
+-- Affected level --
+  Level name: 主世界
+  All players: 0 total; []
+  Chunk stats: ServerChunkCache: 525 Drop: 226
+  Level seed: 1231464060265073396
+  Level generator: ID 00 - default, ver 1. Features enabled: true
+  Level generator options: {"diamondSize":8,"lapisCenterHeight":16,"lavaLakeChance":80,"redstoneMaxHeight":16,"diamondMaxHeight":16,"coalMaxHeight":128,"coalMinHeight":0,"seaLevel":63,"graniteCount":10,"riverSize":4,"gravelMinHeight":0,"graniteSize":33,"redstoneSize":8,"fixedBiome":-1,"waterLakeChance":4,"dioriteMinHeight":0,"andesiteCount":10,"graniteMaxHeight":80,"redstoneMinHeight":0,"lapisSize":7,"dirtCount":10,"ironMinHeight":0,"dioriteMaxHeight":80,"coalCount":20,"gravelCount":8,"coalSize":17,"gravelSize":33,"ironMaxHeight":64,"lapisSpread":16,"dioriteCount":10,"andesiteSize":33,"biomeSize":4,"graniteMinHeight":0,"goldCount":2,"diamondCount":1,"dirtSize":33,"gravelMaxHeight":256,"goldSize":9,"ironCount":20,"diamondMinHeight":0,"ironSize":9,"redstoneCount":8,"andesiteMinHeight":0,"dioriteSize":33,"goldMaxHeight":32,"dungeonChance":8,"andesiteMaxHeight":80,"dirtMinHeight":0,"lapisCount":1,"goldMinHeight":0,"dirtMaxHeight":256,"lowerLimitScale":512.0,"biomeDepthOffset":0.0,"upperLimitScale":512.0,"heightScale":684.412,"biomeScaleWeight":1.0,"biomeDepthWeight":1.0,"mainNoiseScaleZ":80.0,"mainNoiseScaleY":160.0,"depthNoiseScaleX":200.0,"mainNoiseScaleX":80.0,"baseSize":8.5,"depthNoiseScaleZ":200.0,"stretchY":12.0,"depthNoiseScaleExponent":0.5,"biomeScaleOffset":0.0,"coordinateScale":684.412,"useStrongholds":true,"useMineShafts":true,"useTemples":true,"useLavaOceans":false,"useCaves":true,"useWaterLakes":true,"useLavaLakes":true,"useMonuments":true,"useRavines":true,"useDungeons":true,"useVillages":true}
+  Level spawn location: World: (-37,69,1022), Chunk: (at 11,4,14 in -3,63; contains blocks -48,0,1008 to -33,255,1023), Region: (-1,1; contains chunks -32,32 to -1,63, blocks -512,0,512 to -1,255,1023)
+  Level time: 191761 game time, 51400 day time
+  Level dimension: 0
+  Level storage version: 0x04ABD - Anvil
+  Level weather: Rain time: 5626 (now: true), thunder time: 22216 (now: false)
+  Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: true
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_322, Temurin
+  Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+  Memory: 1972796344 bytes (1881 MB) / 8105369600 bytes (7729 MB) up to 14039121920 bytes (13388 MB)
+  JVM Flags: 19 total; -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -XX:+UseFastAccessorMethods -Xmx13732m -XX:-UseAdaptiveSizePolicy -XX:-DontCompileHugeMethods -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 1, tcache: 1, allocated: 12, tallocated: 94
+  FML: MCP 9.42 LoliASM 5.6 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 305 mods loaded, 304 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State  | ID                                | Version                 | Source                                                          | Signature                                |
+       |:------ |:--------------------------------- |:----------------------- |:--------------------------------------------------------------- |:---------------------------------------- |
+       | LCHIJA | minecraft                         | 1.12.2                  | minecraft.jar                                                   | None                                     |
+       | LCHIJA | mcp                               | 9.42                    | minecraft.jar                                                   | None                                     |
+       | LCHIJA | sampler                           | 1.84                    | sampler-1.84.jar                                                | None                                     |
+       | LCHIJA | FML                               | 8.0.99.99               | forge-1.12.2-14.23.5.2860.jar                                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | forge                             | 14.23.5.2860            | forge-1.12.2-14.23.5.2860.jar                                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCHIJA | smoothfontcore                    | mc1.12.2-2.1.2          | minecraft.jar                                                   | None                                     |
+       | LCHIJA | creativecoredummy                 | 1.0.0                   | minecraft.jar                                                   | None                                     |
+       | LCHIJA | micdoodlecore                     | 4.0.5                   | minecraft.jar                                                   | None                                     |
+       | LCHIJA | ivtoolkit                         | 1.3.3-1.12              | minecraft.jar                                                   | None                                     |
+       | LCHIJA | jecharacters                      | 1.12.0-3.5.1            | pingyin.jar                                                     | None                                     |
+       | LCHIJA | worldgenerationprofiler           | 1.2.1.5                 | minecraft.jar                                                   | None                                     |
+       | LCHIJA | mixinbooter                       | 7.0                     | minecraft.jar                                                   | None                                     |
+       | LCHIJA | biometweakercore                  | 1.0.39                  | minecraft.jar                                                   | None                                     |
+       | LCHIJA | splan                             | 2.65                    | minecraft.jar                                                   | None                                     |
+       | LCHIJA | foamfixcore                       | 7.7.4                   | minecraft.jar                                                   | None                                     |
+       | LCHIJA | obfuscate                         | 0.4.2                   | minecraft.jar                                                   | None                                     |
+       | LCHIJA | randompatches                     | 1.12.2-1.22.1.10        | randompatches-1.12.2-1.22.1.10.jar                              | None                                     |
+       | LCHIJA | techguns_core                     | 1.12.2-1.0              | minecraft.jar                                                   | None                                     |
+       | LCHIJA | smoothfont                        | mc1.12.2-2.1.2          | [平滑字体] SmoothFont-mc1.12.2-2.1.2.jar                            | None                                     |
+       | LCHIJA | concheckrmd                       | 1.9.5                   | [整合包配置检测] Modpack Configuration Checker-1.12.2-v1.9.5.jar       | None                                     |
+       | LCHIJA | codechickenlib                    | 3.2.3.358               | [CodeChicken Lib] CodeChickenLib-1.12.2-3.2.3.358-universal.jar | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | redstoneflux                      | 2.1.1                   | [Redstone Flux API] RedstoneFlux-1.12-2.1.1.1-universal.jar     | None                                     |
+       | LCHIJA | cofhcore                          | 4.6.6                   | [CoFH核心] CoFHCore-1.12.2-4.6.6.1-universal.jar                  | None                                     |
+       | LCHIJA | mod_lavacow                       | 1.3.1                   | [Fish的不死崛起] Fish's Undead Rising-1.3.1.jar                      | None                                     |
+       | LCHIJA | waila                             | 1.8.26                  | [Here's What You're Looking At] Hwyla-1.8.26-B41_1.12.2.jar     | None                                     |
+       | LCHIJA | crafttweaker                      | 4.1.20                  | CraftTweaker2-1.12-4.1.20.675.jar                               | None                                     |
+       | LCHIJA | mtlib                             | 3.0.7                   | MTLib-3.0.7.jar                                                 | None                                     |
+       | LCHIJA | modtweaker                        | 4.0.19                  | modtweaker-4.0.20.5.jar                                         | None                                     |
+       | LCHIJA | jei                               | 4.16.1.302              | [JEI物品管理器] jei_1.12.2-4.16.1.302.jar                            | None                                     |
+       | LCHIJA | cfm                               | 6.3.1                   | [MrCrayfish 的家具] furniture-6.3.1-1.12.2.jar                     | None                                     |
+       | LCHIJA | endercore                         | 1.12.2-0.5.76           | [末影核心] EnderCore-1.12.2-0.5.76.jar                              | None                                     |
+       | LCHIJA | cofhworld                         | 1.4.0                   | CoFHWorld-1.12.2-1.4.0.1-universal.jar                          | None                                     |
+       | LCHIJA | thermalfoundation                 | 2.6.7                   | [热力系列] ThermalFoundation-1.12.2-2.6.7.1-universal.jar           | None                                     |
+       | LCHIJA | ic2                               | 2.8.221-ex112           | [工业时代2] industrialcraft-2-2.8.221-ex112.jar                     | de041f9f6187debbc77034a344134053277aa3b0 |
+       | LCHIJA | placebo                           | 1.6.0                   | Placebo-1.12.2-1.6.0.jar                                        | None                                     |
+       | LCHIJA | mekanism                          | 1.12.2-9.8.3.390        | [通用机械] Mekanism-1.12.2-9.8.3.390.jar                            | None                                     |
+       | LCHIJA | industrialupgrade                 | 2.4.0.16                | [工业升级] IndustrialUpgrade-1.12.2-2.4.0.16.jar                    | None                                     |
+       | LCHIJA | thermalexpansion                  | 5.5.7                   | [热力膨胀] ThermalExpansion-1.12.2-5.5.7.1-universal.jar            | None                                     |
+       | LCHIJA | baubles                           | 1.5.2                   | [饰品栏] Baubles-1.12-1.5.2.jar                                    | None                                     |
+       | LCHIJA | enderio                           | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | mcjtylib_ng                       | 3.5.4                   | mcjtylib-1.12-3.5.4.jar                                         | None                                     |
+       | LCHIJA | rftools                           | 7.73                    | [RF工具箱] rftools-1.12-7.73.jar                                   | None                                     |
+       | LCHIJA | rftoolsdim                        | 5.71                    | [RF工具：维度] rftoolsdim-1.12-5.71.jar                              | None                                     |
+       | LCHIJA | rftoolspower                      | 1.2.0                   | [RF工具：能量] rftoolspower-1.12-1.2.0.jar                           | None                                     |
+       | LCHIJA | rustic                            | 1.1.7                   | [乡村] rustic-1.1.7.jar                                           | None                                     |
+       | LCHIJA | ichunutil                         | 7.2.2                   | iChunUtil-1.12.2-7.2.2.jar                                      | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | portalgun                         | 7.1.0                   | [传送枪] PortalGun-1.12.2-7.1.0.jar                                | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+       | LCHIJA | byg                               | 1.7.1                   | [你将去的生物群系] BiomesYouGo1.7.1.jar                                 | None                                     |
+       | LCHIJA | uppers                            | 0.0.6                   | [倒置漏斗] Uppers-0.0.6.jar                                         | None                                     |
+       | LCHIJA | memorycleaner                     | 1.4                     | [内存自动清理] memorycleaner-1.4.jar                                  | None                                     |
+       | LCHIJA | roguelike                         | 1.8.0                   | [冒险地牢] RoguelikeDungeons-1.12.2-1.8.0.jar                       | None                                     |
+       | LCHIJA | llibrary                          | 1.7.20                  | llibrary-1.7.20-1.12.2.jar                                      | b9f30a813bee3b9dd5652c460310cfcd54f6b7ec |
+       | LCHIJA | iceandfire                        | 1.9.1                   | [冰火传说 ／ 冰与火之歌] iceandfire-1.9.1-1.12.2.jar                      | None                                     |
+       | LCHIJA | mob_grinding_utils                | 0.3.13                  | [刷怪塔实用设备] MobGrindingUtils-0.3.13.jar                           | None                                     |
+       | LCHIJA | torcherino                        | 7.6                     | [加速火把] torcherino-7.6.jar                                       | None                                     |
+       | LCHIJA | chunkanimator                     | 1.2                     | [区块加载动画] ChunkAnimator-MC1.12-1.2.jar                           | None                                     |
+       | LCHIJA | doubleslabs                       | 0.12.2                  | [双重台阶] DoubleSlabs-1.12-0.12.2.jar                              | None                                     |
+       | LCHIJA | collective                        | 3.0                     | collective-1.12.2-3.0.jar                                       | None                                     |
+       | LCHIJA | moveminecarts                     | 1.6                     | [可移动的矿车] moveminecarts_1.12.2-1.6.jar                           | None                                     |
+       | LCHIJA | avaritiarecipemaker               | 1.0.0                   | [可视化无尽配方编辑器] avaritiarecipemaker-1.0.0.jar                      | None                                     |
+       | LCHIJA | forgelin                          | 1.8.4                   | Forgelin-1.8.4.jar                                              | None                                     |
+       | LCHIJA | librarianlib                      | 4.22                    | [图书馆] librarianlib-1.12.2-4.22.jar                              | None                                     |
+       | LCHIJA | mantle                            | 1.12-1.3.3.55           | [地幔] Mantle-1.12-1.3.3.55.jar                                   | None                                     |
+       | LCHIJA | sonarcore                         | 5.0.19                  | [声呐核心] sonarcore-1.12.2-5.0.19-20.jar                           | None                                     |
+       | LCHIJA | multithreadednoise                | 0.0.2                   | [多线程优化]MultithreadedNoise(0.0.2).jar                            | None                                     |
+       | LCHIJA | goodnightsleep                    | 0.2.2                   | [夜眠梦境／晚安的梦境] good-nights-sleep-1.12.2-v0.2.2.jar                | None                                     |
+       | LCHIJA | aether_legacy                     | 1.5.3.2                 | [天境] aether-1.12.2-v1.5.3.2.jar                                 | None                                     |
+       | LCHIJA | lost_aether                       | 1.0.2                   | [天境：遗失之物] lost-aether-content-1.12.2-1.0.2.jar                  | None                                     |
+       | LCHIJA | additionalstructures              | 2.4.1                   | [失落废墟] Rex's-Additional-Structures-1.12.x-(v.2.4.1).jar         | None                                     |
+       | LCHIJA | lostcities                        | 2.0.22                  | [失落的城市] lostcities-1.12-2.0.22.jar                              | None                                     |
+       | LCHIJA | quarkoddities                     | 1                       | [夸克-奇思妙想] QuarkOddities-1.12.2.jar                              | None                                     |
+       | LCHIJA | quark                             | r1.6-179                | [夸克] Quark-r1.6-179.jar                                         | None                                     |
+       | LCHIJA | harvestcraft                      | 1.12.2zb                | [潘马斯农场] Pam's HarvestCraft 1.12.2zg.jar                         | None                                     |
+       | LCHIJA | mm_lib                            | 2.3.0                   | [妖怪之山通用库] MMLib-2.3.0.jar                                       | None                                     |
+       | LCHIJA | aroma1997core                     | 2.0.0.2                 | Aroma1997Core-1.12.2-2.0.0.2.jar                                | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | aromabackup                       | 2.1.1.4                 | [存档备份] AromaBackup-1.12.2-2.1.1.4.jar                           | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | aromabackuprecovery               | 2.1.1.4                 | [存档备份] AromaBackup-1.12.2-2.1.1.4.jar                           | dfbfe4c473253d8c5652417689848f650b2cbe32 |
+       | LCHIJA | utilityworlds                     | 1.1.0                   | [实用世界] UtilityWorlds-1.12.2_1.1.0.jar                           | None                                     |
+       | LCHIJA | actuallyadditions                 | 1.12.2-r152             | [实用拓展] ActuallyAdditions-1.12.2-r152.jar                        | None                                     |
+       | LCHIJA | attributefix                      | 1.0.4                   | [属性修复] AttributeFix-1.12.2-1.0.4.jar                            | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | ctm                               | MC1.12.2-1.0.2.31       | [连接材质] CTM-MC1.12.2-1.0.2.31.jar                                | None                                     |
+       | LCHIJA | twilightforest                    | 3.11.1021               | [暮色森林] twilightforest-1.12.2-3.11.1021-universal.jar            | None                                     |
+       | LCHIJA | ebwizardry                        | 4.3.7                   | ElectroblobsWizardry-4.3.7-MC1.12.2.jar                         | None                                     |
+       | LCHIJA | tfspellpack                       | 1.1.0                   | [巫术学：暮色森林法术包] TFSpellPack-1.1.0-MC1.12.2.jar                    | None                                     |
+       | LCHIJA | patchouli                         | 1.0-23.6                | [帕秋莉手册] Patchouli-1.0-23.6.jar                                  | None                                     |
+       | LCHIJA | appliedenergistics2               | rv6-stable-7            | [应用能源2] appliedenergistics2-rv6-stable-7.jar                    | dfa4d3ac143316c6f32aa1a1beda1e34d42132e5 |
+       | LCHIJA | omlib                             | 3.2.0-256               | [开放式炮台库] omlib-1.12.2-3.2.0-256.jar                             | None                                     |
+       | LCHIJA | openmodularturrets                | 3.2.0-379               | [开放式炮台] openmodularturrets-1.12.2-3.2.0-379.jar                 | None                                     |
+       | LCHIJA | botania                           | r1.10-364               | [植物魔法] Botania r1.10-364.4.jar                                  | None                                     |
+       | LCHIJA | minerva                           | 1.0.13                  | minerva-library-1.0.13.jar                                      | b851b8b7c7f4d8d0e910ff27618150ba80c026ec |
+       | LCHIJA | extraalchemy                      | 0.5.4                   | [扩展炼药] extraalchemy-forge-1.12-build11-0.5.4.jar                | b851b8b7c7f4d8d0e910ff27618150ba80c026ec |
+       | LCHIJA | croparia                          | 2.4                     | [矿石作物／魔种之咏] Croparia-2.5.jar                                    | None                                     |
+       | LCHIJA | guideapi                          | 1.12-2.1.8-63           | [指南] Guide-API-1.12-2.1.8-63.jar                                | None                                     |
+       | LCHIJA | cropdusting                       | 0.7                     | [排气施肥] CropDusting-0.7-[1.12.2].jar                             | None                                     |
+       | LCHIJA | carryon                           | 1.12.3                  | [搬运] carryon-1.12.2-1.12.4.16.jar                               | fd21553434f4905f2f73ea7838147ac4ea07bd88 |
+       | LCHIJA | spartanweaponry                   | 1.4.1                   | [斯巴达的武器] SpartanWeaponry-1.12.2-1.4.1.jar                       | None                                     |
+       | LCHIJA | spartanfire                       | 0.08                    | [斯巴达之冰与火] spartanfire-0.08.jar                                  | None                                     |
+       | LCHIJA | abyssalcraft                      | 1.10.4                  | [深渊国度] AbyssalCraft-1.12.2-1.10.4.jar                           | 220f10d3a93b3ff5fbaa7434cc629d863d6751b9 |
+       | LCHIJA | spartanshields                    | 1.5.5                   | [斯巴达之盾] SpartanShields-1.12.2-1.5.5.jar                         | None                                     |
+       | LCHIJA | journeymap                        | 1.12.2-5.7.1            | [旅行地图] journeymap-1.12.2-5.7.1.jar                              | None                                     |
+       | LCHIJA | travelersbackpack                 | 1.0.35                  | [旅行者背包] TravelersBackpack-1.12.2-1.0.35.jar                     | None                                     |
+       | LCHIJA | enderiointegrationtic             | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | tofucraft                         | 0.1.0.9                 | [豆腐工艺重置版] TofuCraftReload-0.1.0.9.jar                           | None                                     |
+       | LCHIJA | tconstruct                        | 1.12.2-2.13.0.183       | TConstruct-1.12.2-2.13.0.183.jar                                | None                                     |
+       | LCHIJA | exnihilocreatio                   | 1.12.2-0.4.7.2          | [无中生有：创世] exnihilocreatio-1.12.2-0.4.7.2.jar                    | None                                     |
+       | LCHIJA | astralsorcery                     | 1.10.27                 | [星辉魔法] astralsorcery-1.12.2-1.10.27.jar                         | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+       | LCHIJA | golems                            | 7.1.9                   | [更多傀儡] ExtraGolems-1.12-7.1.9.jar                               | None                                     |
+       | LCHIJA | extrautils2                       | 1.0                     | [更多实用设备] extrautils2-1.12-1.9.9.jar                             | None                                     |
+       | LCHIJA | farlanders                        | 1.0.1                   | [更多末影人] farlanders-1.12.2-1.0.1.jar                             | None                                     |
+       | LCHIJA | cxlibrary                         | 1.6.1                   | cxlibrary-1.12.1-1.6.1.jar                                      | None                                     |
+       | LCHIJA | morefurnaces                      | 1.10.5                  | [更多熔炉] MoreFurnaces-1.12.2-1.10.6.jar                           | None                                     |
+       | LCHIJA | ironchest                         | 1.12.2-7.0.67.844       | [更多箱子] ironchest-1.12.2-7.0.72.847.jar                          | None                                     |
+       | LCHIJA | applesplus                        | 2.0                     | [更多苹果] Apples+2.1.jar                                           | None                                     |
+       | LCHIJA | somanyenchantments                | 0.5.5                   | [更多附魔] SoManyEnchantments-0.5.5.jar                             | None                                     |
+       | LCHIJA | betternether                      | 0.1.8.6                 | [更好的下界] betternether-0.1.8.6.jar                                | None                                     |
+       | LCHIJA | torchslabmod                      | v1.5.2                  | [更好的火把放置] torchslabmod-1.12.2-v1.5.2.jar                        | None                                     |
+       | LCHIJA | mujmajnkraftsbettersurvival       | 1.4.1                   | [更好的生存] better_survival-1.4.1.jar                               | None                                     |
+       | LCHIJA | betterthanmending                 | 1.1.2                   | [更好的经验修补] BetterThanMending-1.1.2.jar                           | None                                     |
+       | LCHIJA | futureminecraf                    | 1.3.1                   | [未来的版本] FutureVersions v1.3.1.jar                               | None                                     |
+       | LCHIJA | stygian                           | 1.0.4                   | [末地：生物群系扩展] stygian-1.0.4.jar                                   | None                                     |
+       | LCHIJA | enderiobase                       | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderioconduits                   | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderioconduitsappliedenergistics | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderioconduitsopencomputers      | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | refinedstorage                    | 1.6.16                  | [精致存储] refinedstorage-1.6.16.jar                                | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+       | LCHIJA | enderioconduitsrefinedstorage     | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderiointegrationforestry        | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderiointegrationticlate         | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderioinvpanel                   | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | ftblib                            | 5.4.7.2                 | FTBLib-5.4.7.2.jar                                              | None                                     |
+       | LCHIJA | enderiomachines                   | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | enderiopowertools                 | 5.3.70                  | [末影接口] EnderIO-1.12.2-5.3.70.jar                                | None                                     |
+       | LCHIJA | theaurorian                       | 1.12.2-Release          | [极光幽境] theaurorian-1.12.2-release-may3021.jar                   | None                                     |
+       | LCHIJA | fastleafdecay                     | v14                     | [树叶快速腐烂] FastLeafDecay-v14.jar                                  | None                                     |
+       | LCHIJA | aiotbotania                       | 0.7.1                   | [植物魔法全能工具] aiotbotania-0.7.1.jar                                | None                                     |
+       | LCHIJA | dimdoors                          | 1.12.2-3.1.2+UNOFFICIAL | [次元门] DimensionalDoors-1.12.2-3.1.2-UNOFFICIAL.jar              | None                                     |
+       | LCHIJA | aquaculture                       | 1.6.8                   | [水产养殖2] Aquaculture-1.12.2-1.6.8.jar                            | None                                     |
+       | LCHIJA | defiledlands                      | 1.4.3                   | [污秽之地] defiledlands-1.12.2-1.4.3.jar                            | None                                     |
+       | LCHIJA | worleycaves                       | 1.5.2                   | [沃利的洞穴] worleycaves-1.12.2-1.5.2.jar                            | None                                     |
+       | LCHIJA | erebus                            | 1.0.32                  | [混沌之地] Erebus-1.0.32.jar                                        | None                                     |
+       | LCHIJA | yurtmod                           | 9.5.2                   | [游牧帐篷] NomadicTents-1.12.2-9.5.2.jar                            | None                                     |
+       | LCHIJA | diethopper                        | 1.1                     | [漏斗碰撞箱修复] diethopper-1.1.jar                                    | None                                     |
+       | LCHIJA | thermalcultivation                | 0.3.6                   | [热力农业] ThermalCultivation-1.12.2-0.3.6.1-universal.jar          | None                                     |
+       | LCHIJA | thermalinnovation                 | 0.3.6                   | [热力革新] ThermalInnovation-1.12.2-0.3.6.1-universal.jar           | None                                     |
+       | LCHIJA | thermaldynamics                   | 2.5.6                   | [热动力学] ThermalDynamics-1.12.2-2.5.6.1-universal.jar             | None                                     |
+       | LCHIJA | tropicraft                        | 7.1.9.115               | [热带世界] tropicraft-MC1.12.2-7.1.9.115.jar                        | None                                     |
+       | LCHIJA | fastfurnace                       | 1.3.1                   | [熔炉性能优化] FastFurnace-1.12.2-1.3.1.jar                           | None                                     |
+       | LCHIJA | furnaceoverhaul                   | 2.2.2                   | [熔炉改革] furnaceoverhaul-1.12.2-2.2.2.jar                         | None                                     |
+       | LCHIJA | redstonepaste                     | 1.7.5                   | [爬墙红石／粘性红石] redstonepaste-mc1.12-1.7.5.jar                      | None                                     |
+       | LCHIJA | inventoryhud                      | 3.4.4                   | [物品栏HUD+] InventoryHUD-1.12.2.forge-3.4.4.jar                   | None                                     |
+       | LCHIJA | teslacorelib                      | 1.0.18                  | [特斯拉核心] tesla-core-lib-1.12.2-1.0.18.jar                        | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | uniquebase                        | 1.0.1                   | Unique Enchantments Base-1.12.2-1.1.0.jar                       | None                                     |
+       | LCHIJA | uniquee                           | 2.0.1                   | [独特的附魔] Unique Enchantments-1.12.2-2.1.3.jar                    | None                                     |
+       | LCHIJA | uniqueebattle                     | 1.0.1                   | [独特的附魔战斗扩展] Unique Enchantments Battle-1.12.2-1.1.3.jar         | None                                     |
+       | LCHIJA | uniqueeutil                       | 1.0.1                   | [独特的附魔：效用扩展] Unique Enchantments Utils-1.12.2-1.5.0.jar         | None                                     |
+       | LCHIJA | valkyrielib                       | 1.12.2-2.0.20.1         | valkyrielib-1.12.2-2.0.20.1.jar                                 | None                                     |
+       | LCHIJA | environmentaltech                 | 1.12.2-2.0.20.1         | [环境科技] environmentaltech-1.12.2-2.0.20.1.jar                    | None                                     |
+       | LCHIJA | biometweaker                      | 3.2.369                 | [生物群系修改器] BiomeTweaker-1.12.2-3.2.369.jar                       | 631f326344f7f5fd7df7eb940760ebd52b7c9c17 |
+       | LCHIJA | bonsaitrees                       | 1.1.4                   | [盆栽] bonsaitrees-1.1.4-b170.jar                                 | None                                     |
+       | LCHIJA | disenchanter                      | 1.8                     | [祛魔台] disenchanter[1.12]1.8.jar                                 | None                                     |
+       | LCHIJA | apotheosis                        | 1.12.4                  | [神化] Apotheosis-1.12.2-1.12.5.jar                               | None                                     |
+       | LCHIJA | divinerpg                         | 1.7.1                   | [神圣RPG] DivineRPG-1.7.1.jar                                     | None                                     |
+       | LCHIJA | cucumber                          | 1.1.3                   | Cucumber-1.12.2-1.1.3.jar                                       | None                                     |
+       | LCHIJA | mysticalagriculture               | 1.7.5                   | [神秘农业] MysticalAgriculture-1.12.2-1.7.5.jar                     | None                                     |
+       | LCHIJA | mysticalagradditions              | 1.3.2                   | [神秘农业扩展] MysticalAgradditions-1.12.2-1.3.2.jar                  | None                                     |
+       | LCHIJA | reborncore                        | 3.19.5                  | [重生核心] RebornCore-1.12.2-3.19.5-universal.jar                   | None                                     |
+       | LCHIJA | techreborn                        | 2.27.3.1084             | [科技复兴] TechReborn-1.12.2-2.27.3.1084-universal.jar              | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+       | LCHIJA | techguns                          | 2.0.2.0                 | [科技枪] techguns-1.12.2-2.0.2.0_pre3.2.jar                        | None                                     |
+       | LCHIJA | infernalmobs                      | 1.7.6                   | [稀有精英怪] InfernalMobs-1.12.2.jar                                 | None                                     |
+       | LCHIJA | projecte                          | 1.12.2-PE1.4.1          | [等价交换重制版] ProjectE-1.12.2-PE1.4.1.jar                           | None                                     |
+       | LCHIJA | hammercore                        | 2.0.6.28                | [锤子核心] HammerLib-1.12.2-2.0.6.28.jar                            | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+       | LCHIJA | expequiv                          | 12.3.17                 | [等价扩展] ExpandedEquivalence-1.12.2-12.3.17.jar                   | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+       | LCHIJA | rats                              | 3.2.14                  | [老鼠] rats-3.2.14-1.12.2.jar                                     | None                                     |
+       | LCHIJA | jrftl                             | 1.1                     | [腐肉换皮革] JRFTL[1.12.2]-1.1.jar                                   | None                                     |
+       | LCHIJA | appleskin                         | 1.0.14                  | [苹果皮] AppleSkin-mc1.12-1.0.14.jar                               | None                                     |
+       | LCHIJA | blue_skies                        | 1.1.3                   | [蓝色天空] blue_skies-1.12.2-v1.1.3.jar                             | None                                     |
+       | LCHIJA | resourceloader                    | 1.5.3                   | [资源加载] ResourceLoader-MC1.12.1-1.5.3.jar                        | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+       | LCHIJA | biomesoplenty                     | 7.0.1.2444              | [超多生物群系] BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar          | None                                     |
+       | LCHIJA | mekanismgenerators                | 1.12.2-9.8.3.390        | [通用机械发电机] MekanismGenerators-1.12.2-9.8.3.390.jar               | None                                     |
+       | LCHIJA | mekanismtools                     | 1.12.2-9.8.3.390        | [通用机械工具] MekanismTools-1.12.2-9.8.3.390.jar                     | None                                     |
+       | LCHIJA | galacticraftcore                  | 4.0.5                   | Galacticraft-1.12.2-4.0.5.jar                                   | None                                     |
+       | LCHIJA | galacticraftplanets               | 4.0.5                   | Galacticraft-1.12.2-4.0.5.jar                                   | None                                     |
+       | LCHIJA | mjrlegendslib                     | 1.12.2-1.2.1            | MJRLegendsLib-1.12.2-1.2.1.jar                                  | b02331787272ec3515ebe63ecdeea0d746653468 |
+       | LCHIJA | zollerngalaxy                     | 2.0.45                  | ZollernGalaxy-1.12.2-2.0.45.jar                                 | None                                     |
+       | LCHIJA | extraplanets                      | 1.12.2-0.7.5            | ExtraPlanets-1.12.2-0.7.5.jar                                   | b02331787272ec3515ebe63ecdeea0d746653468 |
+       | LCHIJA | taiga                             | 1.12.2-1.3.3            | taiga-1.12.2-1.3.4.jar                                          | None                                     |
+       | LCHIJA | mekores                           | 2.0.13                  | [通用机械矿石] mekores-2.0.13.jar                                     | None                                     |
+       | LCHIJA | fluxnetworks                      | 4.1.0                   | [通量网络] FluxNetworks-1.12.2-4.1.1.34.jar                         | None                                     |
+       | LCHIJA | bookworm                          | 1.12.2-2.5.2.1          | bookworm-1.12.2-2.5.2.1.jar                                     | None                                     |
+       | LCHIJA | zawa                              | 1.12.2-2.1.3            | [野生动物园：重制版] zawa-1.12.2-2.1.3.jar                               | 3ee471ded1bba54aa82f4f5ca5ca82dd67b8ef42 |
+       | LCHIJA | anvilrestoration                  | 1.1                     | [铁砧修复] anvilrestoration_1.12.2-1.1.jar                          | None                                     |
+       | LCHIJA | controlling                       | 3.0.10                  | [键位冲突显示] Controlling-3.0.10.jar                                 | None                                     |
+       | LCHIJA | atum                              | 2.0.20                  | [阿图姆：沙漠之旅／亚图姆：金沙之旅] Atum-1.12.2-2.0.20.jar                      | None                                     |
+       | LCHIJA | lightningcraft                    | 2.9.7_1                 | [雷电工艺] lightningcraft-2.9.7_1.jar                               | None                                     |
+       | LCHIJA | sereneseasons                     | 1.2.18                  | [静谧四季／季节] SereneSeasons-1.12.2-1.2.18-universal.jar             | None                                     |
+       | LCHIJA | extrabotany                       | 58                      | [额外植物学] ExtraBotany-r1.1-58r.jar                                | None                                     |
+       | LCHIJA | tumbleweed                        | 1.12-0.4.7              | [风滚草] tumbleweed-1.12-0.4.7.jar                                 | None                                     |
+       | LCHIJA | xray                              | 2.0.0                   | [高级透视] xray-1.12.2-1.6.0.jar                                    | None                                     |
+       | LCHIJA | bookshelf                         | 2.3.590                 | Bookshelf-1.12.2-2.3.590.jar                                    | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | eplus                             | 5.0.176                 | [高级附魔台] EnchantingPlus-1.12.2-5.0.176.jar                       | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCHIJA | mousetweaks                       | 2.10                    | [鼠标手势] MouseTweaks-2.10-mc1.12.2.jar                            | None                                     |
+       | LCHIJA | aether_legacy_addon               | 1.12.2-v1.3.0           | Aether Continuation v1.3.0.jar                                  | None                                     |
+       | LCHIJA | orbis-lib                         | 0.2.0                   | orbis-lib-1.12.2-0.2.0+build411.jar                             | db341c083b1b8ce9160a769b569ef6737b3f4cdf |
+       | LCHIJA | aether                            | 0.3.0                   | aether_ii-1.12.2-0.3.0+build411-universal.jar                   | db341c083b1b8ce9160a769b569ef6737b3f4cdf |
+       | LCHIJA | alib                              | 1.0.12                  | alib-1.0.12.jar                                                 | None                                     |
+       | LCHIJA | creativecore                      | 1.10.0                  | CreativeCore_v1.10.70_mc1.12.2.jar                              | None                                     |
+       | LCHIJA | ambientsounds                     | 3.0                     | AmbientSounds_v3.1.5_mc1.12.2.jar                               | None                                     |
+       | LCHIJA | asmodeuscore                      | 0.0.30                  | AsmodeusCore-1.12.2-0.0.31.jar                                  | None                                     |
+       | LCHIJA | autoreglib                        | 1.3-32                  | AutoRegLib-1.3-32.jar                                           | None                                     |
+       | LCHIJA | avaritia                          | 3.3.0                   | Avaritia-1.12.2-3.3.0.37-universal.jar                          | None                                     |
+       | LCHIJA | base                              | 3.14.0                  | base-1.12.2-3.14.0.jar                                          | None                                     |
+       | LCHIJA | bettermineshafts                  | 1.12.2-2.2.1            | BetterMineshaftsForge-1.12.2-2.2.1.jar                          | None                                     |
+       | LCHIJA | brandonscore                      | 2.4.20                  | BrandonsCore-1.12.2-2.4.20.162-universal.jar                    | None                                     |
+       | LCHIJA | camera                            | 1.0.10                  | camera-1.0.10.jar                                               | None                                     |
+       | LCHIJA | cavern                            | 2.3.1                   | Cavern_1.12.2-v2.3.1.jar                                        | None                                     |
+       | LCHIJA | clumps                            | 3.1.2                   | Clumps-3.1.2.jar                                                | None                                     |
+       | LCHIJA | cyclopscore                       | 1.6.7                   | CyclopsCore-1.12.2-1.6.7.jar                                    | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+       | LCHIJA | colossalchests                    | 1.7.3                   | ColossalChests-1.12.2-1.7.3.jar                                 | bd0353b3e8a2810d60dd584e256e364bc3bedd44 |
+       | LCHIJA | comforts                          | 1.4.1.3                 | comforts-1.12.2-1.4.1.3.jar                                     | 2484ef4d131fdc0dca0647aa21b7b944ddb935a1 |
+       | LCHIJA | contenttweaker                    | 1.12.2-4.10.0           | ContentTweaker-1.12.2-4.10.0.jar                                | None                                     |
+       | LCHIJA | extendedrenderer                  | v1.0                    | coroutil-1.12.1-1.2.37.jar                                      | None                                     |
+       | LCHIJA | coroutil                          | 1.12.1-1.2.37           | coroutil-1.12.1-1.2.37.jar                                      | None                                     |
+       | LCHIJA | configmod                         | v1.0                    | coroutil-1.12.1-1.2.37.jar                                      | None                                     |
+       | LCHIJA | craftstudioapi                    | 1.0.0                   | CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar              | None                                     |
+       | LCHIJA | ctgui                             | 1.0.0                   | CraftTweaker2-1.12-4.1.20.675.jar                               | None                                     |
+       | LCHIJA | crafttweakerjei                   | 2.0.3                   | CraftTweaker2-1.12-4.1.20.675.jar                               | None                                     |
+       | LCHIJA | ctintegration                     | 1.8.0                   | ctintegration-1.8.0.jar                                         | None                                     |
+       | LCHIJA | customloadingscreen               | 1.12.2-1.5.5            | CustomLoadingScreen-1.12.2-1.5.5.jar                            | None                                     |
+       | LCHIJA | dungeonsmod                       | @VERSION@               | DungeonsMod-1.12.2-1.0.8.jar                                    | None                                     |
+       | LCHIJA | foamfix                           | 0.10.14-1.12.2          | FF.jar                                                          | None                                     |
+       | LCHIJA | forgemultipartcbe                 | 2.6.2.83                | ForgeMultipart-1.12.2-2.6.2.83-universal.jar                    | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | microblockcbe                     | 2.6.2.83                | ForgeMultipart-1.12.2-2.6.2.83-universal.jar                    | None                                     |
+       | LCHIJA | minecraftmultipartcbe             | 2.6.2.83                | ForgeMultipart-1.12.2-2.6.2.83-universal.jar                    | None                                     |
+       | LCHIJA | ftbultimine                       | 1202.3.5                | ftb-ultimine-1202.3.5.jar                                       | None                                     |
+       | LCHIJA | itemfilters                       | 1.0.3.12                | ItemFilters-1.0.3.12.jar                                        | None                                     |
+       | LCHIJA | ftbquests                         | 1202.9.0.15             | FTBQuests-1202.9.0.15.jar                                       | None                                     |
+       | LCHIJA | futuremc                          | 0.2.6                   | future-mc-0.2.9.jar                                             | None                                     |
+       | LCHIJA | galaxyspace                       | 2.0.19                  | GalaxySpace-1.12.2-2.0.19.jar                                   | None                                     |
+       | LCHIJA | gbook                             | 2.9.5                   | Guidebook-1.12.2-2.9.5.jar                                      | None                                     |
+       | LCHIJA | jiucore                           | 1.0.8-20220315202836    | JC.jar                                                          | None                                     |
+       | LCHIJA | jeid                              | 1.0.4-SNAPSHOT          | JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar                           | None                                     |
+       | LCHIJA | keepinginventory                  | 2.4                     | KeepingInventory-1.12.2-2.4.jar                                 | None                                     |
+       | LCHIJA | loliasm                           | 5.6                     | loliasm-5.6.jar                                                 | None                                     |
+       | LCHIJA | lootoverhaul                      | 1.2                     | LootOverhaul-1.2.jar                                            | None                                     |
+       | LCHIJA | lucky                             | 7.6.0                   | luckyblock-1.12.2-1-forge.jar                                   | None                                     |
+       | LCHIJA | mclib                             | 2.3.5                   | mclib-2.3.5-1.12.2.jar                                          | None                                     |
+       | LCHIJA | moon-core                         | 7.0                     | moon-core 7.0 (1.12).jar                                        | None                                     |
+       | LCHIJA | stevekung's_lib                   | 1.2.0                   | SteveKunG's-Lib-1.12.2-1.2.0.jar                                | None                                     |
+       | LCHIJA | moreplanets                       | 2.3.1                   | More-Planets-1.12.2-2.3.1-GC4.0.4.jar                           | None                                     |
+       | LCHIJA | moreavaritia                      | 3.4                     | moreavaritia-mc1.12.2-v4.jar                                    | None                                     |
+       | LCHIJA | morecows                          | 1.4.2                   | morecows.jar                                                    | None                                     |
+       | LCHIJA | moreplanetsextras                 | 1.12.2-1.0              | MorePlanetsExtras-1.12.2-1.0.jar                                | None                                     |
+       | LCHIJA | thebetweenlands                   | 3.8.1                   | TheBetweenlands-3.8.1-universal.jar                             | 38067d6878811efb38b6a045521cfd80b9b60b38 |
+       | LCHIJA | moretweaker                       | 1.0.19                  | MoreTweaker-1.0.19.jar                                          | None                                     |
+       | LCHIJA | mrtjpcore                         | 2.1.4.43                | MrTJPCore-1.12.2-2.1.4.43-universal.jar                         | None                                     |
+       | LCHIJA | loadedmodsexporter                | 1.12.2-1.0              | msfss.jar                                                       | None                                     |
+       | LCHIJA | naturescompass                    | 1.8.5                   | NaturesCompass-1.12.2-1.8.5.jar                                 | None                                     |
+       | LCHIJA | nei                               | 2.4.2                   | NEI1.12.2.jar                                                   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCHIJA | netherendingores                  | 1.12.2-1.4.2            | Netherending-Ores-1.12.2-1.4.2.jar                              | None                                     |
+       | LCHIJA | overpoweredarmorbar               | @VERSION@               | overloadedarmorbar-1.0.4g.jar                                   | None                                     |
+       | LCHIJA | pasterdream                       | 1.0.0                   | PasterDream-1.12.2-beta 0.13.0.2.jar                            | None                                     |
+       | LCHIJA | pdexpand                          | 1.0.0                   | PasterDreamExpand-1.12.2-beta 6.3.jar                           | None                                     |
+       | LCHIJA | projectex                         | 1.2.0.40                | ProjectEX-1.2.0.40.jar                                          | None                                     |
+       | LCHIJA | radixcore                         | 1.12.x-2.2.1            | RadixCore-1.12.x-2.2.1-universal.jar                            | None                                     |
+       | LCHIJA | reccomplex                        | 1.4.8.2                 | RecurrentComplex-1.4.8.2.jar                                    | None                                     |
+       | LCHIJA | refinedstorageaddons              | 0.4.5                   | refinedstorageaddons-0.4.5.jar                                  | None                                     |
+       | LCHIJA | rlmixins                          | 1.2.9                   | RLMixins-1.2.9.jar                                              | None                                     |
+       | LCHIJA | roost                             | 2.0.10                  | roost-1.12.2-2.0.10.jar                                         | None                                     |
+       | LCHIJA | silentlib                         | 3.0.13                  | SilentLib-1.12.2-3.0.14+168.jar                                 | None                                     |
+       | LCHIJA | scalinghealth                     | 1.3.37                  | ScalingHealth-1.12.2-1.3.42+147.jar                             | None                                     |
+       | LCHIJA | t3s4ebw                           | 1.0                     | SeedsForWizardry 1.0 For MC Forge 1.12.2.jar                    | None                                     |
+       | LCHIJA | storagenetwork                    | 1.8.3                   | SimpleStorageNetwork-1.12.2-1.8.3.jar                           | 0e5cb559be7d03f3fc18b8cba547d663e25f28af |
+       | LCHIJA | spectrite                         | 1.7.1                   | spectrite-1.7.1.jar                                             | 00119cfc089819bbcd2f9166a50c7f3df88ded78 |
+       | LCHIJA | starmaker                         | 0.0.5                   | StarMaker-1.12.2-0.0.5.jar                                      | None                                     |
+       | LCHIJA | supertnt                          | 1.0.1                   | SuperTNT-1.12.2-1.0.1.jar                                       | None                                     |
+       | LCHIJA | tenshilib                         | 1.2.4                   | TenshiLib-1.12.2-1.2.4.jar                                      | None                                     |
+       | LCHIJA | thedragonlib                      | 1.12.2-5.3.0            | thedragonlib-1.12.2-5.3.0.jar                                   | None                                     |
+       | LCHIJA | tcomplement                       | 1.12.2-0.4.3            | TinkersComplement-1.12.2-0.4.3.jar                              | None                                     |
+       | LCHIJA | tinkersoredictcache               | 1.0                     | TinkersOreDictCache-1.0.jar                                     | None                                     |
+       | LCHIJA | legendera                         | 1.1.11                  | TLE.jar                                                         | None                                     |
+       | LCHIJA | lelib                             | 1.0                     | TLE.jar                                                         | None                                     |
+       | LCHIJA | tlsywen                           | 1.0                     | tlsywen-1.1.jar                                                 | None                                     |
+       | LCHIJA | trackapi                          | 1.2                     | TrackAPI-1.2.jar                                                | None                                     |
+       | LCHIJA | traverse                          | 1.6.0                   | Traverse-1.12.2-1.6.0-69.jar                                    | None                                     |
+       | LCHIJA | universaltweaks                   | 1.12.2-1.2.0            | UniversalTweaks-1.12.2-1.2.0.jar                                | None                                     |
+       | LCHIJA | universalmodifiers                | 1.12.2-1.0.16.1         | valkyrielib-1.12.2-2.0.20.1.jar                                 | None                                     |
+       | LCHIJA | wailaharvestability               | 1.1.12                  | WailaHarvestability-mc1.12-1.1.12.jar                           | None                                     |
+       | LCHIJA | wanionlib                         | 1.12.2-2.9              | WanionLib-1.12.2-2.9.jar                                        | None                                     |
+       | LCHIJA | what                              | 0.2                     | WHAT-0.2.jar                                                    | None                                     |
+       | LCHIJA | xnet                              | 1.8.2                   | xnet-1.12-1.8.2.jar                                             | None                                     |
+       | LCHIJA | recipehandler                     | 0.14                    | YARCF-0.14(1.12.2).jar                                          | None                                     |
+       | LCHIJA | mcs                               | 3.0.0-20220322000126    | zbb.jar                                                         | None                                     |
+       | LCHIJA | zettaimagic                       | 1.4.7                   | ZettaiMagic-1.4.7.jar                                           | None                                     |
+       | LCHIJA | phosphor-lighting                 | 1.12.2-0.2.6            | P.jar                                                           | f0387d288626cc2d937daa504e74af570c52a2f1 |
+       | LCHIJA | exoplanets                        | 0.1.3                   | Interstellar-Exoplanets-1.12.2-0.1.3.0.jar                      | 33ca92ce5eed6e15e06d52c25ddd6f2ac78f9cf4 |
+       | LCHIJA | rebornmod                         | 1.1.2                   | [侏罗纪世界重生] JurassicWorldReborn-1.12.2-1.2.0.jar                  | None                                     |
+       | LCHIJA | midnight                          | 0.3.5                   | [午夜] themidnight-0.3.5.jar                                      | None                                     |
+       | LCHIJA | techreborn_compat                 | 1.0.0                   | TechReborn-ModCompatibility-1.12.2-1.4.0.76.jar                 | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+       | LCHIJA | candymod                          | 1.1.5                   | [糖果世界] candyworld-1.1.5.jar                                     | None                                     |
+       | LCHIJA | ropebridge                        | 2.0.5                   | [索桥] RopeBridge-1.12.2-2.2.1.jar                                | None                                     |
+       | LCHIJA | ancientspellcraft                 | 1.12.2-1.5.9            | 古代咒法-1.12.2-1.5.9.jar                                           | None                                     |
+       | LCHIJA | librarianliblate                  | 4.22                    | [图书馆] librarianlib-1.12.2-4.22.jar                              | None                                     |
+       | LCHIJA | teslacorelib_registries           | 1.0.18                  | [特斯拉核心] tesla-core-lib-1.12.2-1.0.18.jar                        | None                                     |
+       | LCHIJA | additions                         | 0.5.2                   | Additions-0.5.2.jar                                             | None                                     |
+       | UD     | mclib_core                        | 2.3.5                   | minecraft.jar                                                   | None                                     |
+  Loaded coremods (and transformers): TenshiCore (TenshiLib-1.12.2-1.2.4.jar)
+                                        com.flemmli97.tenshilib.asm.ASMTransformer
+                                      BiomeTweakerCore ([生物群系修改器扩展] BiomeTweakerCore-1.12.2-1.0.39.jar)
+                                        me.superckl.biometweakercore.BiomeTweakerASMTransformer
+                                      midnight ([午夜] themidnight-0.3.5.jar)
+                                        com.mushroom.midnight.core.transformer.MidnightClassTransformer
+                                      CXLibraryCore (cxlibrary-1.12.1-1.6.1.jar)
+                                        cubex2.cxlibrary.CoreModTransformer
+                                      LoadingPlugin ([区块加载动画] ChunkAnimator-MC1.12-1.2.jar)
+                                        lumien.chunkanimator.asm.ClassTransformer
+                                      Worldgeneration Profiler Plugin (world_generation_profiler-[1.8-1.12.2]-1.2.1.5.jar)
+                                        net.hycrafthd.worldgenerationprofiler.asm.transformer.Transformer
+                                      ApotheosisCore ([神化] Apotheosis-1.12.2-1.12.5.jar)
+                                        shadows.ApotheosisTransformer
+                                      McLib core mod (mclib-2.3.5-1.12.2.jar)
+                                        mchorse.mclib.core.McLibCMClassTransformer
+                                      ClsPlugin (CustomLoadingScreen-1.12.2-1.5.5.jar)
+                                        alexiil.mc.mod.load.coremod.ClsTransformer
+                                      EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+                                        com.enderio.core.common.transform.EnderCoreTransformer
+                                        com.enderio.core.common.transform.SimpleMixinPatcher
+                                      LibrarianLib Plugin ([图书馆] librarianlib-1.12.2-4.22.jar)
+                                        com.teamwizardry.librarianlib.asm.LibLibTransformer
+                                      FMLLoadingPlugin (CCE_UTBlockFireMixin-1.0-SNAPSHOT.jar)
+                                        
+                                      MixinBooter (!mixinbooter-7.0.jar)
+                                        
+                                      AstralCore ([星辉魔法] astralsorcery-1.12.2-1.10.27.jar)
+                                        
+                                      DoubleSlabs Plugin ([双重台阶] DoubleSlabs-1.12-0.12.2.jar)
+                                        cjminecraft.doubleslabs.client.asm.ClassTransformer
+                                      ratscore ([老鼠] rats-3.2.14-1.12.2.jar)
+                                        com.github.alexthe666.rats.server.misc.RatsRuntimePatcher
+                                      RandomPatches (randompatches-1.12.2-1.22.1.10.jar)
+                                        com.therandomlabs.randompatches.core.RPTransformer
+                                      FTBUltimineASM (ftb-ultimine-1202.3.5.jar)
+                                        
+                                      ForgelinPlugin (Forgelin-1.8.4.jar)
+                                        
+                                      SteveKunGLibPlugin (SteveKunG's-Lib-1.12.2-1.2.0.jar)
+                                        
+                                      Techguns Core ([科技枪] techguns-1.12.2-2.0.2.0_pre3.2.jar)
+                                        techguns.core.TechgunsASMTransformer
+                                      llibrary (llibrary-core-1.0.11-1.12.2.jar)
+                                        net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+                                        net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+                                      CorePlugin ([平滑字体] SmoothFont-mc1.12.2-2.1.2.jar)
+                                        bre.smoothfont.asm.Transformer
+                                      JechCore (pingyin.jar)
+                                        me.towdium.jecharacters.core.JechClassTransformer
+                                      iceandfire ([冰火传说 ／ 冰与火之歌] iceandfire-1.9.1-1.12.2.jar)
+                                        com.github.alexthe666.iceandfire.patcher.IceAndFireRuntimePatcher
+                                      RLMixinsPlugin (RLMixins-1.2.9.jar)
+                                        
+                                      SSLoadingPlugin ([静谧四季／季节] SereneSeasons-1.12.2-1.2.18-universal.jar)
+                                        sereneseasons.asm.transformer.EntityRendererTransformer
+                                        sereneseasons.asm.transformer.WorldTransformer
+                                      LoadingPlugin ([资源加载] ResourceLoader-MC1.12.1-1.5.3.jar)
+                                        lumien.resourceloader.asm.ClassTransformer
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (FF.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      SoManyEnchantments ASM ([更多附魔] SoManyEnchantments-0.5.5.jar)
+                                        com.Shultrea.Rin.Transformer.SMEASM
+                                      HCASM ([锤子核心] HammerLib-1.12.2-2.0.6.28.jar)
+                                        com.zeitheron.hammercore.asm.HammerCoreTransformer
+                                      ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+                                        com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+                                      GSHooksLoader (GalaxySpace-1.12.2-2.0.19.jar)
+                                        galaxyspace.core.hooklib.minecraft.PrimaryClassTransformer
+                                      CTMCorePlugin ([连接材质] CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      PhosphorFMLLoadingPlugin (P.jar)
+                                        
+                                      MekanismCoremod ([通用机械] Mekanism-1.12.2-9.8.3.390.jar)
+                                        mekanism.coremod.KeybindingMigrationHelper
+                                      IvToolkit (IvToolkit-1.3.3-1.12.jar)
+                                        
+                                      LoliASM (loliasm-5.6.jar)
+                                        
+                                      UniversalTweaksCore (UniversalTweaks-1.12.2-1.2.0.jar)
+                                        
+                                      CoreMod (Aroma1997Core-1.12.2-2.0.0.2.jar)
+                                        
+                                      ServerPropertiesLAN ([简单联机] ServerPropertiesLAN-2.65.jar)
+                                        JaideepSinghHeer.Minecraft.mod.SPLANtransformerPort
+                                      FutureMC (future-mc-0.2.9.jar)
+                                        thedarkcolour.futuremc.asm.CoreTransformer
+                                      AssetPlugin (StarMaker-1.12.2-0.0.5.jar)
+                                        starmaker.utils.asm.Transformer
+                                      SpartanWeaponry-MixinLoader ([斯巴达的武器] SpartanWeaponry-1.12.2-1.4.1.jar)
+                                        
+                                      CreativePatchingLoader (CreativeCore_v1.10.70_mc1.12.2.jar)
+                                        
+                                      NWRTweak ([爬墙红石／粘性红石] redstonepaste-mc1.12-1.7.5.jar)
+                                        net.fybertech.nwr.NWRTransformer
+                                      Quark Plugin ([夸克] Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      Born in a Barn (Born In A Barn V1.8-1.12-1.1.jar)
+                                        com.chocohead.biab.BornInABarn
+                                      TheBetweenlandsLoadingPlugin (TheBetweenlands-3.8.1-core.jar)
+                                        thebetweenlands.core.TheBetweenlandsClassTransformer
+                                      JustEnoughIDs Extension Plugin (JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar)
+                                        org.dimdev.jeid.JEIDTransformer
+                                      MicdoodlePlugin (Galacticraft-1.12.2-4.0.5.jar)
+                                        micdoodle8.mods.miccore.MicdoodleTransformer
+  GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+  Ender IO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):
+                              * Optifine is installed. This is NOT supported.
+                             This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+            Authlib is : /D:/BaiduNetdiskDownload/%e6%95%b4%e5%90%88%e5%8c%85/.minecraft/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+            
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            !!!You are looking at the diagnostics information, not at the crash.       !!!
+            !!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+            !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  AE2 Version: stable rv6-stable-7 for Forge 14.23.5.2768
+  Pulsar/tconstruct loaded Pulses: - TinkerCommons (Enabled/Forced)
+                                   - TinkerWorld (Enabled/Not Forced)
+                                   - TinkerTools (Enabled/Not Forced)
+                                   - TinkerHarvestTools (Enabled/Forced)
+                                   - TinkerMeleeWeapons (Enabled/Forced)
+                                   - TinkerRangedWeapons (Enabled/Forced)
+                                   - TinkerModifiers (Enabled/Forced)
+                                   - TinkerSmeltery (Enabled/Not Forced)
+                                   - TinkerGadgets (Enabled/Not Forced)
+                                   - TinkerOredict (Enabled/Forced)
+                                   - TinkerIntegration (Enabled/Forced)
+                                   - TinkerFluids (Enabled/Forced)
+                                   - TinkerMaterials (Enabled/Forced)
+                                   - TinkerModelRegister (Enabled/Forced)
+                                   - wailaIntegration (Enabled/Not Forced)
+                                   - quarkIntegration (Enabled/Not Forced)
+  HammerCore Debug Information: Dependent Mods:
+                                -Expanded Equivalence (expequiv) @ 12.3.17
+  Pulsar/tcomplement loaded Pulses: - ModuleCommons (Enabled/Forced)
+                                    - ModuleMelter (Enabled/Not Forced)
+                                    - ModuleArmor (Enabled/Not Forced)
+                                    - ModuleSteelworks (Enabled/Not Forced)
+                                    - ExNihiloPlugin (Enabled/Not Forced)
+                                    - Oredict (Enabled/Forced)
+  Patchouli open book context: n/a
+  RebornCore: Plugin Engine: 0
+              RebornCore Version: 3.19.5
+              Runtime Debofucsation 1
+              Invalid fingerprint detected for RebornCore!
+              RenderEngine: 1
+  AE2 Integration: IC2:ON, RC:OFF, MFR:OFF, Waila:ON, InvTweaks:OFF, JEI:ON, Mekanism:ON, OpenComputers:OFF, THE_ONE_PROBE:OFF, TESLA:OFF, CRAFTTWEAKER:ON
+  Suspected Mods: Unknown
+  Profiler Position: N/A (disabled)
+  Player Count: 0 / 10; []
+  Type: Integrated Server (map_client.txt)
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
