@@ -1,0 +1,100 @@
+[20:25:39] [main/INFO]: Found mod file geckolib-forge-1.19-3.1.40.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file jecharacters-1.19.2-4.4.1.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file kotlinforforge-3.12.0-all.jar of type LIBRARY with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file libIPN-forge-1.19-3.0.2.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file malilib-forge-1.19.2-0.15.2-dev.20230327.231500.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file nzgExpansion-1.2.2-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file oculus-mc1.19.2-1.6.4.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file overloadedarmorbar-1.19.3-7.1.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file projectarsenal-0.3.3-1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file radium-0.8.2.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file Stabx_Modern_Guns_v5.4_1.19.2.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file TravelersBackpack-1.19.2-8.2.30.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file tweakeroo-forge-1.19.2-0.16.0-20230401.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file witherstormmod-1.19.2-3.1.1.1.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:39] [main/INFO]: Found mod file wthit-forge-5.17.0.jar of type MOD with provider {mods folder locator at C:\Users\萝丽\Desktop\.minecraft\versions\1.19\mods}
+[20:25:40] [main/WARN]: Mod file C:\Users\萝丽\Desktop\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.21\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
+[20:25:40] [main/WARN]: Mod file C:\Users\萝丽\Desktop\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.21\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[20:25:40] [main/WARN]: Mod file C:\Users\萝丽\Desktop\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.21\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[20:25:40] [main/WARN]: Mod file C:\Users\萝丽\Desktop\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.21\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[20:25:40] [main/INFO]: Found mod file fmlcore-1.19.2-43.2.21.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found mod file javafmllanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found mod file lowcodelanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found mod file mclanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found mod file client-1.19.2-20220805.130853-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found mod file forge-1.19.2-43.2.21-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@9301672
+[20:25:40] [main/INFO]: Found 9 dependencies adding them to mods collection
+[20:25:40] [main/INFO]: Found mod file PinIn-1.6.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file paragon-forge-3.0.2-1.19x.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file jankson-1.2.1.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file toml4j-0.7.2.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file kffmod-3.12.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file kfflib-3.12.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file ColaMixinConfig-v1.0.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file kfflang-3.12.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:40] [main/INFO]: Found mod file snakeyaml-1.27.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3e8799f
+[20:25:53] [main/INFO]: Compatibility level set to JAVA_17
+[20:25:53] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 1.19, --gameDir, C:\Users\萝丽\Desktop\.minecraft\versions\1.19, --assetsDir, C:\Users\萝丽\Desktop\.minecraft\assets, --uuid, 38c9245fa07636af9c7d69c26dcdb3b7, --username, 1211920, --assetIndex, 1.19, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.5.4.234, --width, 854, --height, 480]
+[20:25:53] [main/ERROR]: Option entity.collisions.fluid for dependency 'entity.collisions.fluid depends on chunk=true' not found. Skipping.
+[20:25:53] [main/ERROR]: Option entity.collisions.fluid for dependency 'entity.collisions.fluid depends on chunk.block_counting=true' not found. Skipping.
+[20:25:53] [main/INFO]: Loaded configuration file for Radium: 96 options available, 0 override(s) found
+[20:25:53] [main/INFO]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[20:25:53] [main/WARN]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20:25:54] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[20:26:01] [main/WARN]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
+[20:26:01] [main/WARN]: Error loading class: de/maxhenkel/easyvillagers/blocks/tileentity/TraderTileentityBase (java.lang.ClassNotFoundException: de.maxhenkel.easyvillagers.blocks.tileentity.TraderTileentityBase)
+[20:26:01] [main/WARN]: @Mixin target de.maxhenkel.easyvillagers.blocks.tileentity.TraderTileentityBase was not found mixins.ipnext.json:MixinTraderTileEntityBase
+Exception in thread "main" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.21/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	... 7 more
+Caused by: java.lang.RuntimeException: java.lang.ExceptionInInitializerError
+	at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.21/net.minecraftforge.fml.loading.BackgroundWaiter.runAndTick(BackgroundWaiter.java:29)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.m_239872_(Main.java:145)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.main(Main.java:51)
+	... 13 more
+Caused by: java.lang.ExceptionInInitializerError
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.carver.CarverDebugSettings.<clinit>(CarverDebugSettings.java:9)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.carver.CarverConfiguration.m_224838_(CarverConfiguration.java:20)
+	at MC-BOOTSTRAP/datafixerupper@5.0.28/com.mojang.serialization.codecs.RecordCodecBuilder.mapCodec(RecordCodecBuilder.java:76)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.carver.CarverConfiguration.<clinit>(CarverConfiguration.java:16)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.carver.WorldCarver.<clinit>(WorldCarver.java:32)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.worldgen.Carvers.<clinit>(Carvers.java:21)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236012_(BuiltinRegistries.java:53)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236009_(BuiltinRegistries.java:87)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236004_(BuiltinRegistries.java:114)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:113)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.<clinit>(Registry.java:665)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:43)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.lambda$run$0(Main.java:145)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.UnsupportedOperationException: A mod tried to access the state neighbor table directly. Please report this at https://github.com/malte0811/FerriteCore/issues. As a temporary workaround you can enable "populateNeighborTable" in the FerriteCore config
+	at TRANSFORMER/ferritecore@5.0.3/malte0811.ferritecore.fastmap.table.CrashNeighborTable.crashOnAccess(CrashNeighborTable.java:101)
+	at TRANSFORMER/ferritecore@5.0.3/malte0811.ferritecore.fastmap.table.CrashNeighborTable.rowKeySet(CrashNeighborTable.java:77)
+	at TRANSFORMER/radium@0.8.2/me.jellysquid.mods.lithium.common.state.FastImmutableTable.<init>(FastImmutableTable.java:36)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.state.StateHolder.handler$zbc000$postCreateWithTable(StateHolder.java:528)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.state.StateHolder.m_61133_(StateHolder.java:1052)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.state.StateDefinition.<init>(StateDefinition.java:68)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.state.StateDefinition$Builder.m_61101_(StateDefinition.java:157)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.Block.<init>(Block.java:176)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.AirBlock.<init>(AirBlock.java:12)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.block.Blocks.<clinit>(Blocks.java:39)
+	... 19 more
