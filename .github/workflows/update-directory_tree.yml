@@ -13,7 +13,7 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          tree -D -h -s -r -H ./ > index.html
+          tree -h -s -r -H ./ > index.html
           git add -A
           if git diff-index --quiet HEAD; then
             # No changes
