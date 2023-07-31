@@ -1,6 +1,6 @@
 name: update-directory_tree
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   update_history:
