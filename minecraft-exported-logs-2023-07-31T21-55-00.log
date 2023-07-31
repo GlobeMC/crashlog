@@ -1,0 +1,250 @@
+Command: C:\Users\Administrator\AppData\Roaming\.minecraft\cache\java\jre-legacy\windows-x64\jre-legacy\bin\java.exe -noverify -Xmx6729m -Dfile.encoding=GB18030 -Dsun.stdout.encoding=GB18030 -Dsun.stderr.encoding=GB18030 -Djava.rmi.server.useCodebaseOnly=true -Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -Dlog4j.configurationFile=E:\开端\.minecraft\versions\1.16.5\log4j2.xml -Dminecraft.client.jar=.minecraft\versions\1.16.5\1.16.5.jar -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=E:\开端\.minecraft\versions\1.16.5\natives-windows-x86_64 -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.5.5 -cp E:\开端\.minecraft\libraries\net\minecraftforge\forge\1.16.5-36.2.39\forge-1.16.5-36.2.39.jar;E:\开端\.minecraft\libraries\org\ow2\asm\asm\9.1\asm-9.1.jar;E:\开端\.minecraft\libraries\org\ow2\asm\asm-commons\9.1\asm-commons-9.1.jar;E:\开端\.minecraft\libraries\org\ow2\asm\asm-tree\9.1\asm-tree-9.1.jar;E:\开端\.minecraft\libraries\org\ow2\asm\asm-util\9.1\asm-util-9.1.jar;E:\开端\.minecraft\libraries\org\ow2\asm\asm-analysis\9.1\asm-analysis-9.1.jar;E:\开端\.minecraft\libraries\cpw\mods\modlauncher\8.1.3\modlauncher-8.1.3.jar;E:\开端\.minecraft\libraries\cpw\mods\grossjava9hacks\1.3.3\grossjava9hacks-1.3.3.jar;E:\开端\.minecraft\libraries\net\minecraftforge\accesstransformers\3.0.1\accesstransformers-3.0.1.jar;E:\开端\.minecraft\libraries\org\antlr\antlr4-runtime\4.9.1\antlr4-runtime-4.9.1.jar;E:\开端\.minecraft\libraries\net\minecraftforge\eventbus\4.0.0\eventbus-4.0.0.jar;E:\开端\.minecraft\libraries\net\minecraftforge\forgespi\3.2.0\forgespi-3.2.0.jar;E:\开端\.minecraft\libraries\net\minecraftforge\coremods\4.0.6\coremods-4.0.6.jar;E:\开端\.minecraft\libraries\net\minecraftforge\unsafe\0.2.0\unsafe-0.2.0.jar;E:\开端\.minecraft\libraries\com\electronwill\night-config\core\3.6.3\core-3.6.3.jar;E:\开端\.minecraft\libraries\com\electronwill\night-config\toml\3.6.3\toml-3.6.3.jar;E:\开端\.minecraft\libraries\org\jline\jline\3.12.1\jline-3.12.1.jar;E:\开端\.minecraft\libraries\org\apache\maven\maven-artifact\3.6.3\maven-artifact-3.6.3.jar;E:\开端\.minecraft\libraries\net\jodah\typetools\0.8.3\typetools-0.8.3.jar;E:\开端\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;E:\开端\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;E:\开端\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j18-impl\2.15.0\log4j-slf4j18-impl-2.15.0.jar;E:\开端\.minecraft\libraries\net\minecrell\terminalconsoleappender\1.2.0\terminalconsoleappender-1.2.0.jar;E:\开端\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;E:\开端\.minecraft\libraries\org\spongepowered\mixin\0.8.4\mixin-0.8.4.jar;E:\开端\.minecraft\libraries\net\minecraftforge\nashorn-core-compat\15.1.1.1\nashorn-core-compat-15.1.1.1.jar;E:\开端\.minecraft\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar;E:\开端\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;E:\开端\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar;E:\开端\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;E:\开端\.minecraft\libraries\com\ibm\icu\icu4j\66.1\icu4j-66.1.jar;E:\开端\.minecraft\libraries\com\mojang\javabridge\1.0.22\javabridge-1.0.22.jar;E:\开端\.minecraft\libraries\io\netty\netty-all\4.1.25.Final\netty-all-4.1.25.Final.jar;E:\开端\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar;E:\开端\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;E:\开端\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar;E:\开端\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;E:\开端\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;E:\开端\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;E:\开端\.minecraft\libraries\com\mojang\brigadier\1.0.17\brigadier-1.0.17.jar;E:\开端\.minecraft\libraries\com\mojang\datafixerupper\4.0.26\datafixerupper-4.0.26.jar;E:\开端\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;E:\开端\.minecraft\libraries\com\mojang\authlib\2.1.28\authlib-2.1.28.jar;E:\开端\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;E:\开端\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\开端\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\开端\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\开端\.minecraft\libraries\it\unimi\dsi\fastutil\8.2.1\fastutil-8.2.1.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2.jar;E:\开端\.minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2.jar;E:\开端\.minecraft\libraries\com\mojang\text2speech\1.11.3\text2speech-1.11.3.jar;E:\开端\.minecraft\versions\1.16.5\1.16.5.jar -XX:+IgnoreUnrecognizedVMOptions --add-exports=java.base/sun.security.util=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming --add-opens=java.base/java.util.jar=ALL-UNNAMED -javaagent:C:\Users\Administrator\AppData\Roaming\.hmcl\authlib-injector.jar=https://mcskin.cn/api/yggdrasil/ -Dauthlibinjector.side=client -Dauthlibinjector.yggdrasil.prefetched=eyJtZXRhIjp7InNlcnZlck5hbWUiOiJSZWRzdG9uZVNraW4iLCJpbXBsZW1lbnRhdGlvbk5hbWUiOiJZZ2dkcmFzaWwgQVBJIGZvciBCbGVzc2luZyBTa2luIiwiaW1wbGVtZW50YXRpb25WZXJzaW9uIjoiNS4xLjUiLCJsaW5rcyI6eyJob21lcGFnZSI6Imh0dHBzOlwvXC9tY3NraW4uY24iLCJyZWdpc3RlciI6Imh0dHBzOlwvXC9tY3NraW4uY25cL2F1dGhcL3JlZ2lzdGVyIn0sImZlYXR1cmUubm9uX2VtYWlsX2xvZ2luIjp0cnVlfSwic2tpbkRvbWFpbnMiOlsibWNza2luLmVseXRyYW1jLmNuIiwiIiwibWNza2luLmNuIl0sInNpZ25hdHVyZVB1YmxpY2tleSI6Ii0tLS0tQkVHSU4gUFVCTElDIEtFWS0tLS0tXG5NSUlDSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQWc4QU1JSUNDZ0tDQWdFQXYrOFh0YTd1bkxlWERNbmRyTjdSXG5TcHQ1eURcL1wvUEd2ejF4a3dNOWdEdkxXOVwvM2xHeU9CS1wvUXRpbVlxem1GdWVDdjZVMzdpSEZrOStRMHhLNDRNQlxuWWhER1wvaFZpS2wxT21OUnlLYlRuQzlyRllESHZDeU5POElMenltNGg0MU1hSnZWZnBpTmNkamk5cEFNRTFQM0lcbnhzdTlNSm11RWtJT2JVZXp0WkZhV3VQN1ZDaDNyNVlCQmVBWkF4MkNGS3MrRzlTd2FINEF3cWtRRGtPZGtCZ2JcbjhVWUlRTWVUeW5uRXFSZmZldFVVa0cwNUxqM2ZBQWZ2NlBWYWVIVUJ0SFY0Z2tNK1RJRXlaaDNLcmVmTm84K0dcbldqXC90N1FkbXU4d2VvYW4yd3RDZ1dxb1I1NzdlUVBhNEtXcVRFWlN0UkdqYTRIZUNaOVwvVHM3a0xLSjFPWDZrSFxuWmNVMEY4WkwyR0FndlptR0VGd1ZLVlVkd080bEpXU2RtNjFac2RWZHRsSXZpMldzRVN4VDFOYkQrNTFObkM4clxuOCtSTERsNkVcL3phb3hrWWhFRHNMdFVBdTFxUkxKWHFnaVJkTDRSSit1QWVGY0ZvSGFVa1g3S2xOUlpuYlwvZzVMXG4rU0xTc21sWkU2QkxkSEIxYkVGRmRXOUd6aXdYOXlrXC9md0VKT0xuRTROTjY5Nmdvd2dxTkl4ZXlEVkJPZFBXVlxuNFlLajBDaEhRZ24rNVJObGdsbk5LazIwYTM3b1hGTXBER0dFek1BK1RCRUo2TlRORlNCQmV3cnBSRWRPZ3N2R1xuMytpQXlCN2ZHdlNTOStxaTZPektWSFdNWVBsSWU1WW8yXC9jWEdBYjE1TzN5NnlrMU1TbWtTTVwvMnFrNGp1VE5rXG5yOXJvNDZQTDV6S0o4TzNvbjRqSnp0MENBd0VBQVE9PVxuLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tXG4ifQ== cpw.mods.modlauncher.Launcher --username YJKL --version 1.16.5 --gameDir E:\开端\.minecraft --assetsDir E:\开端\.minecraft\assets --assetIndex 1.16 --uuid c6db42dca901389a9d4354515de6336c --accessToken <access token> --userType msa --versionType "HMCL 3.5.5" --width 854 --height 480 --launchTarget fmlclient --fml.forgeVersion 36.2.39 --fml.mcVersion 1.16.5 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20210115.111550
+[authlib-injector] [INFO] Logging file: E:\开端\.minecraft\authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.3
+[authlib-injector] [INFO] Authentication server: https://mcskin.cn/api/yggdrasil/
+2023-07-31 21:52:23,873 main ERROR Error processing element Queue ([Appenders: null]): CLASS_NOT_FOUND
+[21:52:23] [main/INFO]: ModLauncher running: args [--username, YJKL, --version, 1.16.5, --gameDir, E:\开端\.minecraft, --assetsDir, E:\开端\.minecraft\assets, --assetIndex, 1.16, --uuid, c6db42dca901389a9d4354515de6336c, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, HMCL 3.5.5, --width, 854, --height, 480, --launchTarget, fmlclient, --fml.forgeVersion, 36.2.39, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[21:52:23] [main/INFO]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 1.8.0_51 by Oracle Corporation
+[21:52:23] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[21:52:24] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[21:52:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/E:/%e5%bc%80%e7%ab%af/.minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=CLIENT
+[21:52:25] [main/INFO]: Launching target 'fmlclient' with arguments [--version, 1.16.5, --gameDir, E:\开端\.minecraft, --assetsDir, E:\开端\.minecraft\assets, --uuid, c6db42dca901389a9d4354515de6336c, --username, YJKL, --assetIndex, 1.16, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, HMCL 3.5.5, --width, 854, --height, 480]
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
+[authlib-injector] [INFO] Httpd is running on port 4912
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[21:52:30] [main/INFO]: Environment: authHost='https://mcskin.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:4912/https/api.mojang.com', sessionHost='http://127.0.0.1:4912/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:4912/https/api.minecraftservices.com', name='PROD'
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
+[21:52:30] [main/INFO]: Setting user: YJKL
+[21:52:30] [main/WARN]: Skipping bad option: textBackgroundOpacity:
+[21:52:30] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[21:52:32] [modloading-worker-1/INFO]: Forge mod loading, version 36.2.39, for MC 1.16.5 with MCP 20210115.111550
+[21:52:32] [modloading-worker-1/INFO]: MinecraftForge v36.2.39 Initialized
+[21:52:32] [main/WARN]: Removed resource pack �����Ų���.zip from options because it doesn't seem to exist anymore
+[21:52:32] [main/WARN]: Removed resource pack ��5��1.8.9΢���̽�����6Taex ��bV3.zip from options because it doesn't seem to exist anymore
+[21:52:34] [main/INFO]: Narrator library for x64 successfully loaded
+[21:52:34] [main/INFO]: Reloading ResourceManager: Default, Mod Resources
+[21:52:34] [main/FATAL]: Preparing crash report with UUID 840b3f2e-67d3-404b-b055-05b13b8ab4df
+[21:52:36] [main/FATAL]: Reported exception thrown!
+net.minecraft.crash.ReportedException: Rendering overlay
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:488) ~[?:?]
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:977) ~[?:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?]
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.39.jar:36.2]
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$457/1618683794.call(Unknown Source) [forge-1.16.5-36.2.39.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?]
+Caused by: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-client.toml of type CLIENT for modid forge
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler$$Lambda$3672/915454998.apply(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:69) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker$$Lambda$3671/263486120.accept(Unknown Source) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_51]
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2062) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:69) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.lambda$null$18(ModLoader.java:194) ~[?:?]
+	at net.minecraftforge.fml.ModLoader$$Lambda$3670/387175399.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.DistExecutor.unsafeRunWhenOn(DistExecutor.java:111) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:194) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$startModLoading$7(ClientModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3662/1852035525.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.startModLoading(ClientModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$onResourceReload$2(ClientModLoader.java:100) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3658/1980008362.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618) ~[?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51]
+Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.3.jar:?]
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:43) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler$$Lambda$3672/915454998.apply(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:69) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker$$Lambda$3671/263486120.accept(Unknown Source) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_51]
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2062) ~[?:1.8.0_51]
+	at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:69) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.lambda$null$18(ModLoader.java:194) ~[?:?]
+	at net.minecraftforge.fml.ModLoader$$Lambda$3670/387175399.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.DistExecutor.unsafeRunWhenOn(DistExecutor.java:111) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:194) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$startModLoading$7(ClientModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3662/1852035525.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.startModLoading(ClientModLoader.java:118) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$onResourceReload$2(ClientModLoader.java:100) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3658/1980008362.run(Unknown Source) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?]
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618) ~[?:1.8.0_51]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51]
+[21:52:36] [main/INFO]: [net.minecraft.util.registry.Bootstrap:func_179870_a:123]: ---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 23-7-31 下午9:52
+Description: Rendering overlay
+
+net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file forge-client.toml of type CLIENT for modid forge
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler$$Lambda$3672/915454998.apply(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:69) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigTracker$$Lambda$3671/263486120.accept(Unknown Source) ~[?:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_51] {}
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2062) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:69) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$null$18(ModLoader.java:194) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3670/387175399.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.DistExecutor.unsafeRunWhenOn(DistExecutor.java:111) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:194) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$startModLoading$7(ClientModLoader.java:118) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3662/1852035525.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.startModLoading(ClientModLoader.java:118) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$onResourceReload$2(ClientModLoader.java:100) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$3658/1980008362.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.client.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:109) ~[?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.fml.client.ClientModLoader$$Lambda$2990/287859212.run(Unknown Source) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1618) ~[?:1.8.0_51] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1610) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1689) ~[?:1.8.0_51] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) ~[?:1.8.0_51] {}
+Caused by: com.electronwill.nightconfig.core.io.ParsingException: Not enough data available
+	at com.electronwill.nightconfig.core.io.ParsingException.notEnoughData(ParsingException.java:22) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.ReaderInput.directReadChar(ReaderInput.java:36) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.AbstractInput.readChar(AbstractInput.java:49) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.AbstractInput.readCharsUntil(AbstractInput.java:123) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.toml.TableParser.parseKey(TableParser.java:166) ~[toml-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.toml.TableParser.parseDottedKey(TableParser.java:145) ~[toml-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:55) ~[toml-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44) ~[toml-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.3.jar:?] {}
+	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.3.jar:?] {}
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:43) ~[?:?] {re:classloading}
+	... 26 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler$$Lambda$3672/915454998.apply(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:69) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.config.ConfigTracker$$Lambda$3671/263486120.accept(Unknown Source) ~[?:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:1.8.0_51] {}
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2062) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:69) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$null$18(ModLoader.java:194) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader$$Lambda$3670/387175399.run(Unknown Source) ~[?:?] {}
+	at net.minecraftforge.fml.DistExecutor.unsafeRunWhenOn(DistExecutor.java:111) ~[?:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:194) ~[?:?] {re:classloading}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraft.client.gui.ResourceLoadProgressGui
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.func_195458_a(GameRenderer.java:484) ~[?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_195542_b(Minecraft.java:977) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:607) [?:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) [?:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_51] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_51] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_51] {}
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_51] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider.lambda$launchService$0(FMLClientLaunchProvider.java:37) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at net.minecraftforge.fml.loading.FMLClientLaunchProvider$$Lambda$457/1618683794.call(Unknown Source) [forge-1.16.5-36.2.39.jar:36.2] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.1.3.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.1.3.jar:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4455176416 bytes (4248 MB) / 6140461056 bytes (5856 MB) up to 7079985152 bytes (6752 MB)
+	CPUs: 8
+	JVM Flags: 13 total; -Xverify:none -Xmx6729m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -XX:+IgnoreUnrecognizedVMOptions
+	ModLauncher: 8.1.3+8.1.3+main-8.1.x.c94d18ec
+	ModLauncher launch target: fmlclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		/mixin-0.8.4.jar mixin PLUGINSERVICE 
+		/eventbus-4.0.0.jar eventbus PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar object_holder_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar runtime_enum_extender PLUGINSERVICE 
+		/accesstransformers-3.0.1.jar accesstransformer PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar capability_inject_definalize PLUGINSERVICE 
+		/forge-1.16.5-36.2.39.jar runtimedistcleaner PLUGINSERVICE 
+		/mixin-0.8.4.jar mixin TRANSFORMATIONSERVICE 
+		/forge-1.16.5-36.2.39.jar fml TRANSFORMATIONSERVICE 
+	FML: 36.2
+	Forge: net.minecraftforge:36.2.39
+	FML Language Providers: 
+		javafml@36.2
+		minecraft@1
+	Mod List: 
+		forge-1.16.5-36.2.39-client.jar                   |Minecraft                     |minecraft                     |1.16.5              |COMMON_SET|Manifest: NOSIGNATURE
+		forge-1.16.5-36.2.39-universal.jar                |Forge                         |forge                         |36.2.39             |COMMON_SET|Manifest: 22:af:21:d8:19:82:7f:93:94:fe:2b:ac:b7:e4:41:57:68:39:87:b1:a7:5c:c6:44:f9:25:74:21:14:f5:0d:90
+	Crash Report UUID: 840b3f2e-67d3-404b-b055-05b13b8ab4df
+	Launched Version: 1.16.5
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2 GL version 4.6.0 NVIDIA 536.23, NVIDIA Corporation
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 8x 12th Gen Intel(R) Core(TM) i3-12100F
+[21:52:36] [main/INFO]: [net.minecraft.util.registry.Bootstrap:func_179870_a:123]: #@!@# Game crashed! Crash report saved to: #@!@# E:\开端\.minecraft\crash-reports\crash-2023-07-31_21.52.36-client.txt
