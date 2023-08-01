@@ -1,0 +1,100 @@
+[10:50:34] [Server thread/INFO]: Starting server-side EMC mapping.
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'obisidan.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'glass.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'glass.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'ender'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'iron.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'gold.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'copper.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'tin.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'silver.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'lead.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'nickel.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'aluminum.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'ardite.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'cobalt.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'platinum.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'obsidian.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'electrum.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'invar.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'signalum.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'lumium.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'enderium.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'mithril.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'bronze.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'aluminumbrass.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'manyullyn.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'alumite.molten'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'emerald.liquid'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'redstone'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'glowstone'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'cryotheum'
+[10:50:34] [Server thread/WARN]: Can not get Fluid 'pryotheum'
+[10:50:34] [Server thread/WARN]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
+[10:50:34] [Server thread/WARN]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
+[10:50:34] [Server thread/WARN]: EMC Exploit: ingredients (0 + 1*minecraft:cobblestone:0 + 1*minecraft:stone:3 => 2*minecraft:stone:5) cost 17 but output value is 16
+[10:50:35] [Server thread/INFO]: Registered 662 EMC values. (took 413 ms)
+[10:50:35] [Server thread/INFO]: Changing view distance to 15, from 10
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[10:50:36] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[10:50:36] [Netty Server IO #1/INFO]: Client protocol version 2
+[10:50:36] [Netty Server IO #1/INFO]: Client attempting to join with 19 mods : minecraft@1.12.1,FML@8.0.99.99,dynamiclights_entityclasses@1.0.1,dynamiclights_otherplayers@1.0.9,jei@4.7.11.102,veinminermodsupport@0.38.2,dynamiclights_dropitems@1.1.0,dynamiclights_theplayer@1.1.3,dynamiclights_onfire@1.0.7,dynamiclights_mobequipment@1.1.0,dynamiclights_floodlights@1.0.3,dynamiclights_creepers@1.0.6,dynamiclights_flamearrows@1.0.1,dynamiclights@1.4.6,projecte@1.12-PE1.3.2h,forge@14.22.1.2485,flammpfeil.slashblade@mc1.12.1-r3,mcp@9.19,veinminer@0.38.2
+[10:50:36] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[10:50:36] [Server thread/INFO]: [Server thread] Server side modded connection established
+[10:50:36] [Server thread/INFO]: 起个名好难[local:E:90cbff04] logged in with entity id 178 at (119.5, 107.0, -49.30000001192093)
+[10:50:36] [Server thread/INFO]: 起个名好难加入了游戏
+[10:50:38] [Server thread/INFO]: Saving and pausing game...
+[10:50:39] [Server thread/INFO]: Saving chunks for level '新的世界'/overworld
+[10:50:39] [main/INFO]: [Shaders] usedColorBuffers: 4
+[10:50:39] [main/INFO]: [Shaders] usedDepthBuffers: 1
+[10:50:39] [main/INFO]: [Shaders] usedShadowColorBuffers: 0
+[10:50:39] [main/INFO]: [Shaders] usedShadowDepthBuffers: 0
+[10:50:39] [main/INFO]: [Shaders] usedColorAttachs: 4
+[10:50:39] [main/INFO]: [Shaders] usedDrawBuffers: 1
+[10:50:39] [main/INFO]: [Shaders] Framebuffer created.
+[10:50:39] [main/INFO]: [Shaders] Reset model renderers
+[10:50:39] [main/INFO]: [Shaders] Reset world renderers
+[10:50:39] [Server thread/INFO]: Saving chunks for level '新的世界'/the_nether
+[10:50:39] [Server thread/INFO]: Saving chunks for level '新的世界'/the_end
+[10:50:39] [pool-4-thread-1/INFO]: [moe.yushi.authlibinjector.transform.support.SkinWhitelistTransformUnit:isWhitelistedDomain:66]: https://littleskin.cn/textures/1c0b9da946f67983cad0e597d23b74180054a9514c68d73e02bb4fba6e2ad833
+[10:50:39] [pool-4-thread-1/INFO]: [moe.yushi.authlibinjector.transform.support.SkinWhitelistTransformUnit:isWhitelistedDomain:66]: https://littleskin.cn/textures/c560438e06ad2ac5abdf606833f0178487f51d24bd65add405fda1552caca533
+[10:50:40] [main/INFO]: Loaded 242 advancements
+[10:50:40] [main/INFO]: [atomicstryker.dynamiclights.client.DynamicLights:hackRenderGlobalConcurrently:224]: Dynamic Lights successfully hacked Set RenderGlobal.setLightUpdates and replaced it with a ConcurrentSkipListSet!
+[10:50:41] [main/INFO]: [CHAT] VeinMiner 正使用热键模式, 详情请查看配置项
+[10:50:41] [main/INFO]: Received mode change 1
+[10:50:41] [main/INFO]: [CHAT] 已设置客户端 Veinminer 的热键为按下时启用
+[10:50:59] [ProjectE UUID Checker Server/FATAL]: Caught exception in UUID Checker thread!
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: java.net.SocketTimeoutException: Read timed out
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.SocketInputStream.socketRead0(Native Method)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:475)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:469)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:69)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1271)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:76)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:948)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:779)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:714)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1607)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1504)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1502)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivileged(Native Method)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1501)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.URL.openStream(URL.java:1092)
+[10:50:59] [ProjectE UUID Checker Server/INFO]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at moze_intel.projecte.network.ThreadCheckUUID.run(ThreadCheckUUID.java:28)
+[10:52:52] [Server thread/INFO]: 起个名好难掉出了这个世界
+[10:52:52] [Server thread/INFO]: [起个名好难: 已清除起个名好难]
+[10:52:52] [main/INFO]: [CHAT] 起个名好难掉出了这个世界
+[10:52:52] [main/INFO]: [CHAT] 已清除起个名好难
+[10:52:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4625ms behind, skipping 92 tick(s)
+[10:53:05] [Server thread/INFO]: Unloading dimension -1
+[10:53:36] [Server thread/INFO]: Loading dimension -1 (新的世界) (net.minecraft.server.integrated.IntegratedServer@18db1dec)
+[10:53:39] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3579ms behind, skipping 71 tick(s)
