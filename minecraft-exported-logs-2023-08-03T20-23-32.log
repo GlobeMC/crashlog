@@ -1,0 +1,287 @@
+Command: "C:\\Program Files\\Java\\jre1.8.0_331\\bin\\java.exe" -Xmx6710m -Dfile.encoding=GB18030 -Dsun.stdout.encoding=GB18030 -Dsun.stderr.encoding=GB18030 -Djava.rmi.server.useCodebaseOnly=true -Dcom.sun.jndi.rmi.object.trustURLCodebase=false -Dcom.sun.jndi.cosnaming.object.trustURLCodebase=false -Dlog4j2.formatMsgNoLookups=true -Dlog4j.configurationFile=E:\\.minecraft\versions\HBM\log4j2.xml -Dminecraft.client.jar=.minecraft\versions\HBM\HBM.jar -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -Dfml.ignoreInvalidMinecraftCertificates=true -Dfml.ignorePatchDiscrepancies=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=E:\\.minecraft\versions\HBM\natives-windows-x86_64 -Dminecraft.launcher.brand=HMCL -Dminecraft.launcher.version=3.5.3.230 -cp E:\\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2860\forge-1.12.2-14.23.5.2860.jar;E:\\.minecraft\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar;E:\\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar;E:\\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar;E:\\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar;E:\\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar;E:\\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar;E:\\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar;E:\\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar;E:\\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar;E:\\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar;E:\\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar;E:\\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar;E:\\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar;E:\\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar;E:\\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar;E:\\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar;E:\\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar;E:\\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar;E:\\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;E:\\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;E:\\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;E:\\.minecraft\libraries\com\mojang\patchy\1.3.9\patchy-1.3.9.jar;E:\\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;E:\\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar;E:\\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;E:\\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;E:\\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;E:\\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;E:\\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;E:\\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;E:\\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;E:\\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar;E:\\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar;E:\\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;E:\\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar;E:\\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;E:\\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;E:\\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;E:\\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;E:\\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar;E:\\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar;E:\\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;E:\\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;E:\\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;E:\\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;E:\\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar;E:\\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;E:\\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;E:\\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar;E:\\.minecraft\versions\HBM\HBM.jar -javaagent:C:\Users\32049\AppData\Roaming\.hmcl\authlib-injector.jar=http://localhost:64985 -Dauthlibinjector.side=client net.minecraft.launchwrapper.Launch --tweakClass net.minecraftforge.fml.common.launcher.FMLTweaker --username mrse_ihd_hufh --version HBM --gameDir E:\\.minecraft\versions\HBM --assetsDir E:\.minecraft\assets --assetIndex 1.12 --uuid e650bd1bad923dcf8c991387c6dfaf2b --accessToken e8d5ae3f516d4820a671d72efafe91cb --userType legacy --versionType Forge --width 854 --height 480
+[authlib-injector] [INFO] Logging file: E:\.minecraft\versions\HBM\authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.3
+[authlib-injector] [INFO] Authentication server: http://localhost:64985
+[authlib-injector] [WARNING] You are using HTTP protocol, which is INSECURE! Please switch to HTTPS if possible.
+[20:22:53] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:22:54] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:22:54] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:22:54] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[20:22:54] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_331, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_331
+[20:22:54] [main/INFO]: Searching E:\.minecraft\versions\HBM\mods for mods
+[20:22:54] [main/INFO]: Searching E:\.minecraft\versions\HBM\mods\1.12.2 for mods
+[20:22:54] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from !mixinbooter-8.3.jar
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in [爬墙红石／粘性红石] redstonepaste-mc1.12-1.7.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod net.fybertech.nwr.NWRTweak does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:54] [main/WARN]: The coremod NWRTweak (net.fybertech.nwr.NWRTweak) is not signed!
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in [耳朵] ears-forge-1.12-1.4.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod com.unascribed.ears.common.agent.NewForgeCoremod does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:54] [main/WARN]: The coremod Ears (com.unascribed.ears.common.agent.NewForgeCoremod) is not signed!
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in [苹果核] AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+2023-08-03 20:22:54,306 main WARN Error parsing URI E:\\.minecraft\versions\HBM\log4j2.xml
+[20:22:54] [main/WARN]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in [连接纹理] CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:54] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[20:22:54] [main/INFO]: Loading tweaker codechicken.asm.internal.Tweaker from ChickenASM-1.12-1.0.2.7.jar
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:54] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in cxlibrary-1.12.1-1.6.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod cubex2.cxlibrary.CoreModLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:54] [main/WARN]: The coremod CXLibraryCore (cubex2.cxlibrary.CoreModLoader) is not signed!
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in HeatAndClimateLib_1.12.2-3.9.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar
+[20:22:54] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in mclib-2.4.2-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:22:54] [main/WARN]: The coremod McLib core mod (mchorse.mclib.core.McLibCM) is not signed!
+[20:22:54] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from SpartanWeaponry-1.12.2-1.5.3.jar
+[20:22:54] [main/INFO]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from supermartijn642corelib-1.1.12-forge-mc1.12.jar
+[20:22:54] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:22:54] [main/INFO]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[20:22:54] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/E:/.minecraft/versions/HBM/mods/!mixinbooter-8.3.jar Service=LaunchWrapper Env=CLIENT
+[20:22:55] [main/DEBUG]: Instantiating coremod class MixinBooterPlugin
+[20:22:55] [main/TRACE]: coremod named MixinBooter is loading
+[20:22:55] [main/WARN]: The coremod zone.rong.mixinbooter.MixinBooterPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:22:55] [main/WARN]: The coremod MixinBooter (zone.rong.mixinbooter.MixinBooterPlugin) is not signed!
+[20:22:55] [main/INFO]: Initializing Mixins...
+[20:22:55] [main/INFO]: Compatibility level set to JAVA_8
+[20:22:55] [main/INFO]: Initializing MixinExtras...
+[20:22:55] [main/DEBUG]: Enqueued coremod MixinBooter
+[20:22:55] [main/DEBUG]: Instantiating coremod class JEIDLoadingPlugin
+[20:22:55] [main/TRACE]: coremod named JustEnoughIDs Extension Plugin is loading
+[20:22:55] [main/DEBUG]: The coremod org.dimdev.jeid.JEIDLoadingPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[20:22:55] [main/WARN]: The coremod JustEnoughIDs Extension Plugin (org.dimdev.jeid.JEIDLoadingPlugin) is not signed!
+[20:22:55] [main/INFO]: Initializing JustEnoughIDs core mixins
+[20:22:55] [main/INFO]: Initializing JustEnoughIDs initialization mixins
+[20:22:55] [main/DEBUG]: Enqueued coremod JustEnoughIDs Extension Plugin
+[20:22:55] [main/DEBUG]: Instantiating coremod class MixinLoader
+[20:22:55] [main/TRACE]: coremod named SpartanWeaponry-MixinLoader is loading
+[20:22:55] [main/DEBUG]: The coremod com.oblivioussp.spartanweaponry.mixin.MixinLoader requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[20:22:55] [main/WARN]: The coremod SpartanWeaponry-MixinLoader (com.oblivioussp.spartanweaponry.mixin.MixinLoader) is not signed!
+[20:22:55] [main/DEBUG]: Enqueued coremod SpartanWeaponry-MixinLoader
+[20:22:55] [main/DEBUG]: Instantiating coremod class CoreModPlugin
+[20:22:55] [main/TRACE]: coremod named SuperMartijn642's Core Lib Plugin is loading
+[20:22:55] [main/DEBUG]: The coremod com.supermartijn642.core.coremod.CoreModPlugin requested minecraft version 1.12.2 and minecraft is 1.12.2. It will be loaded.
+[20:22:55] [main/WARN]: The coremod SuperMartijn642's Core Lib Plugin (com.supermartijn642.core.coremod.CoreModPlugin) is not signed!
+[20:22:55] [main/DEBUG]: Added access transformer class com/supermartijn642/core/coremod/CoreLibAccessTransformer to enqueued access transformers
+[20:22:55] [main/DEBUG]: Enqueued coremod SuperMartijn642's Core Lib Plugin
+[20:22:55] [main/INFO]: Loading tweak class name codechicken.asm.internal.Tweaker
+[20:22:55] [main/WARN]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:22:55] [main/WARN]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:22:55] [main/WARN]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:22:55] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:22:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:22:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:22:55] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:55] [main/DEBUG]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[20:22:55] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[20:22:55] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[20:22:55] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[20:22:55] [main/TRACE]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[20:22:55] [main/DEBUG]: Injection complete
+[20:22:55] [main/DEBUG]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[20:22:55] [main/DEBUG]: Running coremod plugin FMLCorePlugin
+[20:22:57] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:22:57] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[20:22:57] [main/DEBUG]: Coremod plugin class FMLCorePlugin run successfully
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/DEBUG]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[20:22:57] [main/DEBUG]: Running coremod plugin FMLForgePlugin
+[20:22:57] [main/DEBUG]: Coremod plugin class FMLForgePlugin run successfully
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/DEBUG]: Injecting coremod DCASMPlugin \{defeatedcrow.hac.asm.DCASMPlugin\} class transformers
+[20:22:57] [main/TRACE]: Registering transformer defeatedcrow.hac.asm.DCMethodTransformer
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for DCASMPlugin \{defeatedcrow.hac.asm.DCASMPlugin\}
+[20:22:57] [main/DEBUG]: Running coremod plugin DCASMPlugin
+[20:22:57] [main/DEBUG]: Coremod plugin class DCASMPlugin run successfully
+[20:22:57] [main/INFO]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[20:22:57] [main/INFO]: Lazily initialising Mixin FML Remapper Adapter
+[20:22:57] [main/DEBUG]: Injecting coremod MixinBooter \{zone.rong.mixinbooter.MixinBooterPlugin\} class transformers
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for MixinBooter \{zone.rong.mixinbooter.MixinBooterPlugin\}
+[20:22:57] [main/DEBUG]: Running coremod plugin MixinBooter
+[20:22:57] [main/DEBUG]: Coremod plugin class MixinBooterPlugin run successfully
+[20:22:57] [main/DEBUG]: Injecting coremod JustEnoughIDs Extension Plugin \{org.dimdev.jeid.JEIDLoadingPlugin\} class transformers
+[20:22:57] [main/TRACE]: Registering transformer org.dimdev.jeid.JEIDTransformer
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for JustEnoughIDs Extension Plugin \{org.dimdev.jeid.JEIDLoadingPlugin\}
+[20:22:57] [main/DEBUG]: Running coremod plugin JustEnoughIDs Extension Plugin
+[20:22:57] [main/DEBUG]: Coremod plugin class JEIDLoadingPlugin run successfully
+[20:22:57] [main/DEBUG]: Injecting coremod SpartanWeaponry-MixinLoader \{com.oblivioussp.spartanweaponry.mixin.MixinLoader\} class transformers
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for SpartanWeaponry-MixinLoader \{com.oblivioussp.spartanweaponry.mixin.MixinLoader\}
+[20:22:57] [main/DEBUG]: Running coremod plugin SpartanWeaponry-MixinLoader
+[20:22:57] [main/DEBUG]: Coremod plugin class MixinLoader run successfully
+[20:22:57] [main/DEBUG]: Injecting coremod SuperMartijn642's Core Lib Plugin \{com.supermartijn642.core.coremod.CoreModPlugin\} class transformers
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for SuperMartijn642's Core Lib Plugin \{com.supermartijn642.core.coremod.CoreModPlugin\}
+[20:22:57] [main/DEBUG]: Running coremod plugin SuperMartijn642's Core Lib Plugin
+[20:22:57] [main/DEBUG]: Coremod plugin class CoreModPlugin run successfully
+[20:22:57] [main/INFO]: Calling tweak class codechicken.asm.internal.Tweaker
+[20:22:57] [main/INFO]: [codechicken.asm.internal.Tweaker:injectIntoClassLoader:30]: false
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/DEBUG]: Injecting coremod McLib core mod \{mchorse.mclib.core.McLibCM\} class transformers
+[20:22:57] [main/TRACE]: Registering transformer mchorse.mclib.core.McLibCMClassTransformer
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for McLib core mod \{mchorse.mclib.core.McLibCM\}
+[20:22:57] [main/DEBUG]: Running coremod plugin McLib core mod
+[20:22:57] [main/DEBUG]: Coremod plugin class McLibCM run successfully
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/DEBUG]: Injecting coremod CXLibraryCore \{cubex2.cxlibrary.CoreModLoader\} class transformers
+[20:22:57] [main/TRACE]: Registering transformer cubex2.cxlibrary.CoreModTransformer
+[20:22:57] [main/DEBUG]: Injection complete
+[20:22:57] [main/DEBUG]: Running coremod plugin for CXLibraryCore \{cubex2.cxlibrary.CoreModLoader\}
+[20:22:57] [main/DEBUG]: Running coremod plugin CXLibraryCore
+[20:22:57] [main/DEBUG]: Coremod plugin class CoreModLoader run successfully
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:22:57] [main/DEBUG]: Validating minecraft
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:22:58] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:22:58] [main/INFO]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:22:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:22:58] [main/INFO]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:22:58] [main/WARN]: Error loading class: net/minecraft/block/Block (net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer team.chisel.ctm.client.asm.CTMTransformer@7fc420b8 from coremod CTMCorePlugin)
+[20:22:58] [main/WARN]: @Mixin target net.minecraft.block.Block was not found mixins.jeid.core.json:MixinBlock from mod JustEnoughIDs_1_0_4_SNAPSHOT_thin
+[20:22:58] [main/INFO]: [mchorse.mclib.core.McLibCMClassTransformer:transform:27]: McLib: Transforming CPacketCustomPayloadTransformer class (lh)
+[20:22:58] [main/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.<init>!
+[20:22:58] [main/INFO]: [mchorse.mclib.core.transformers.PacketBufferTransformer:replaceConstant:50]: McLib: successfully patched lh.a!
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:22:58] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[20:22:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[authlib-injector] [INFO] Enable MC-52974 Workaround
+[20:22:59] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:22:59] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[20:22:59] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:22:59] [main/WARN]: Error loading class: net/minecraft/block/Block (net.minecraftforge.fml.common.asm.ASMTransformerWrapper$TransformerException: Exception in class transformer team.chisel.ctm.client.asm.CTMTransformer@7fc420b8 from coremod CTMCorePlugin)
+[20:22:59] [main/FATAL]: Mixin apply for mod supermartijn642corelib_1_1_12_forge_mc1_12 failed supermartijn642corelib.mixins.json:EntityMixin from mod supermartijn642corelib_1_1_12_forge_mc1_12 -> net.minecraft.entity.Entity: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException Unexpecteded ClassMetadataNotFoundException whilst transforming the mixin class: [MAIN Applicator Phase -> supermartijn642corelib.mixins.json:EntityMixin from mod supermartijn642corelib_1_1_12_forge_mc1_12 -> Apply Methods -> (Lnet/minecraft/entity/MoverType;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V:handler$zbc000$supermartijn642corelib_1_1_12_forge_mc1_12$move -> Transform LVT -> var=block -> desc=Lnet/minecraft/block/Block;]
+org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Unexpecteded ClassMetadataNotFoundException whilst transforming the mixin class: [MAIN Applicator Phase -> supermartijn642corelib.mixins.json:EntityMixin from mod supermartijn642corelib_1_1_12_forge_mc1_12 -> Apply Methods -> (Lnet/minecraft/entity/MoverType;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V:handler$zbc000$supermartijn642corelib_1_1_12_forge_mc1_12$move -> Transform LVT -> var=block -> desc=Lnet/minecraft/block/Block;]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:510) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:535) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:521) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:388) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) [!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) [!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) [!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) [!mixinbooter-8.3.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) [?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_331]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_331]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: org.spongepowered.asm.mixin.throwables.ClassMetadataNotFoundException: net.minecraft.block.Block
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:1001) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:961) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformLVT(MixinTargetContext.java:563) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:469) ~[!mixinbooter-8.3.jar:?]
+	... 21 more
+[20:22:59] [main/ERROR]: Unable to launch
+java.lang.reflect.InvocationTargetException: null
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_331]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_331]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/entity/Entity
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.entity.Entity
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[!mixinbooter-8.3.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [supermartijn642corelib.mixins.json:EntityMixin from mod supermartijn642corelib_1_1_12_forge_mc1_12] from phase [DEFAULT] in config [supermartijn642corelib.mixins.json] FAILED during APPLY
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[!mixinbooter-8.3.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Unexpecteded ClassMetadataNotFoundException whilst transforming the mixin class: [MAIN Applicator Phase -> supermartijn642corelib.mixins.json:EntityMixin from mod supermartijn642corelib_1_1_12_forge_mc1_12 -> Apply Methods -> (Lnet/minecraft/entity/MoverType;DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V:handler$zbc000$supermartijn642corelib_1_1_12_forge_mc1_12$move -> Transform LVT -> var=block -> desc=Lnet/minecraft/block/Block;]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:510) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:535) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:521) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:388) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[!mixinbooter-8.3.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+Caused by: org.spongepowered.asm.mixin.throwables.ClassMetadataNotFoundException: net.minecraft.block.Block
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:1001) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformSingleDescriptor(MixinTargetContext.java:961) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformLVT(MixinTargetContext.java:563) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTargetContext.transformMethod(MixinTargetContext.java:469) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:535) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:521) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:388) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:327) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:421) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:403) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[!mixinbooter-8.3.jar:?]
+	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[!mixinbooter-8.3.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_331]
+	at net.minecraft.client.main.Main.main(SourceFile:38) ~[Main.class:?]
+	... 6 more
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.SecurityManager.checkExit(Unknown Source)
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.Runtime.exit(Unknown Source)
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at java.lang.System.exit(Unknown Source)
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
+[20:22:59] [main/INFO]: [java.lang.ThreadGroup:uncaughtException:-1]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Exception in thread "main" 
