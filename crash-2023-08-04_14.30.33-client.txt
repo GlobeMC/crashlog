@@ -1,0 +1,657 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2023-08-04 14:30:33
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'client' due to errors, provided by 'modpack-update-checker'!
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at net.minecraft.class_310.<init>(class_310.java:459)
+	at net.minecraft.client.main.Main.method_44604(Main.java:205)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.RuntimeException: java.net.ConnectException
+	at com.jab125.mpuc.client.MpucClient.fetchOnlineInfo(MpucClient.java:127)
+	at com.jab125.mpuc.client.MpucClient.onInitializeClient(MpucClient.java:68)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:47)
+	... 8 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+	at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+	at com.jab125.mpuc.client.MpucClient.fetchUrlAsString(MpucClient.java:196)
+	at com.jab125.mpuc.client.util.OnlineInfo.create2(OnlineInfo.java:55)
+	at com.jab125.mpuc.client.util.OnlineInfo.create(OnlineInfo.java:33)
+	at com.jab125.mpuc.client.MpucClient.fetchOnlineInfo(MpucClient.java:125)
+	... 10 more
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:378)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:128)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:93)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:343)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:475)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:380)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:408)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:449)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2340)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:439)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:341)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$DelegatingExecutor.execute(HttpClientImpl.java:157)
+	at java.base/java.util.concurrent.CompletableFuture.completeAsync(CompletableFuture.java:2673)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsync(MultiExchange.java:294)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.sendAsync(HttpClientImpl.java:654)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:552)
+	... 15 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+	... 38 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.lambda$invoke0$0(EntrypointUtils.java:51)
+	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke0(EntrypointUtils.java:49)
+	at net.fabricmc.loader.impl.entrypoint.EntrypointUtils.invoke(EntrypointUtils.java:35)
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startClient(Hooks.java:53)
+	at net.minecraft.class_310.<init>(class_310.java:459)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:高级 Windows 32 基本 API:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:用户体验控件库:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:加密 API32:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS 客户端 API DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.22621.1344 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP 帮助程序 API:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT 基本 API 客户端 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT 基本 API 客户端 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.22621.1992 (WinBuild.160101.0800):Microsoft Corporation
+		Ole32.dll:用于 Windows 的 Microsoft OLE:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows 性能数据助手 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:远程过程调用运行时:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell 公用 DLL:10.0.22621.1927 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:多用户 Windows 用户 API 客户端 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.28.29913.0 built by: vcwrkspc:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP 服务:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32 位 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:应用程序兼容性客户端库:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		bcrypt.dll:Windows 加密基元库:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.22621.1928 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:用于 Windows 的 Microsoft COM:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc.DLL:DHCP 客户端服务:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		dhcpcsvc6.DLL:DHCPv6 客户端:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec 用户模式 API:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		instrument.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		java.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		java.exe:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		jemalloc.dll
+		jimage.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		jli.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		jna17661790559408176055.dll:JNA native library:6.1.2:Java(TM) Native Access (JNA)
+		jsvml.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		jvm.dll:Java HotSpot(TM) 64-Bit server VM:17.0.3.1:Oracle Corporation
+		kernel.appcore.dll:AppModel API Host:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		lwjgl.dll
+		management.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		management_ext.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.28.29913.0 built by: vcwrkspc:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 服务提供程序:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:电子邮件命名填充提供程序:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt 路由器:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		nio.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT 层 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA 提供程序:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		perfos.dll:Windows 系统性能对象 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		pnrpnsp.dll:PNRP 命名空间提供程序:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.22621.1928 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:外壳简易实用工具库:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.22621.608 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.28.29913.0 built by: vcwrkspc:Microsoft Corporation
+		verify.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+		win32u.dll:Win32u:10.0.22621.1992 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.22621.818 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows 基本类型 DLL:10.0.22621.2070 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.22621.1778 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.22621.1 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:Java(TM) Platform SE binary:17.0.3.1:Oracle Corporation
+Stacktrace:
+	at net.minecraft.client.main.Main.method_44604(Main.java:205)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.3.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 575824064 bytes (549 MiB) / 1677721600 bytes (1600 MiB) up to 8556380160 bytes (8160 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-10200H CPU @ 2.40GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 2.40
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: NVIDIA GeForce GTX 1650 Ti
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1f95
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.1700
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.93
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.93
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 21923.80
+	Virtual memory used (MB): 10242.06
+	Swap memory total (MB): 5632.00
+	Swap memory used (MB): 29.22
+	JVM Flags: 11 total; -Xmx8144m -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32m -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -XX:-DontCompileHugeMethods -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Fabric Mods: 
+		additionalstructures: Additional Structures 4.1.1
+		advdebug: Advancements Debug 2.3.0
+		adventurez: AdventureZ 1.4.18
+		alternate-current: Alternate Current 1.7.0
+		animatica: Animatica 0.5+1.19
+		another_furniture: Another Furniture 2.1.2-1.19.2
+		architects_palette: Architect's Palette Fabric 3.0.0
+		architectury: Architectury 6.5.85
+		attributefix: AttributeFix 17.2.7
+		badpackets: Bad Packets 0.2.1
+		balm-fabric: Balm 4.5.7
+		barteringstation: Bartering Station 4.0.3
+		bcc: BetterCompatibilityChecker 2.0.2-build.16+mc1.19.1
+		bclib: BCLib 2.1.7
+		betteradvancements: Better Advancements 0.2.2.147
+		betterdungeons: YUNG's Better Dungeons 1.19.2-Fabric-3.2.1
+		betterend: Better End 2.1.6
+		betterfortresses: YUNG's Better Nether Fortresses 1.19.2-Fabric-1.0.5
+			org_reflections_reflections: reflections 0.10.2
+		betterfpsdist: Better FPS distance Mod 1.19-2.4
+		bettermineshafts: YUNG's Better Mineshafts 1.19.2-Fabric-3.2.0
+		betternether: Better Nether 7.1.4
+		betteroceanmonuments: YUNG's Better Ocean Monuments 1.19.2-Fabric-2.1.0
+		betterstats: Better Statistics Screen 2.9.3+1.19.2
+			tcdcommons: TCD Commons API 2.9.1+1.19.2
+		betterstrongholds: YUNG's Better Strongholds 1.19.2-Fabric-3.2.0
+		bettertridents: Better Tridents 4.0.2
+		betterwitchhuts: YUNG's Better Witch Huts 1.19.2-Fabric-2.1.0
+		bhmenu: BHMenu-Fabric 1.19.2-2.4.0
+		biomemakeover: Biome Makeover 1.19.2-1.6.4
+		boatbreakfix: Boat Break Fix 1.0.11
+		boatiview: Boat Item View Fabric 0.0.4
+		bobby: Bobby 4.0.1
+			com_typesafe_config: config 1.4.2
+			io_leangen_geantyref_geantyref: geantyref 1.3.13
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		bookshelf: Bookshelf 16.3.20
+		bosses_of_mass_destruction: Bosses of Mass Destruction (Beta) 1.4.6-1.19.2
+			maelstrom_library: Maelstrom Library 1.3-1.19-pre1
+			multipart_entities: MultipartEntities 1.2-1.19-pre1
+		bountiful: Bountiful 3.0.0
+		byg: Oh The Biomes You'll Go 2.0.1.4
+		bygonenether: Bygone Nether 1.2.2
+		carryon: Carry On 2.1.0.19
+			amecsapi: Amecs API 1.5.0+mc22w17a
+		charm: Charm 4.4.4
+			com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		charmofundying: Charm of Undying 6.2.1+1.19.2
+		charmonium: Charmonium 4.2.1
+		chat_heads: Chat Heads 0.10.16
+		chefsdelight: Chef's Delight 1.0.3-fabric-1.19.2
+			structurized-reborn: Structurized Reborn 1.19-01
+		cherishedworlds: Cherished Worlds 6.0.1+1.19.2
+		chunksending: Chunksending Mod 1.19-2.5
+		citresewn: CIT Resewn 1.1.2+1.19.2
+			citresewn-defaults: CIT Resewn: Defaults 1.1.2+1.19.2
+		cleancut: CleanCut 6.0
+		cloth-config: Cloth Config v8 8.3.103
+			cloth-basic-math: cloth-basic-math 0.6.1
+		clumps: Clumps 9.0.0+14
+		collective: Collective 6.65
+		colormatic: Colormatic 3.1.2+mc.1.19
+		comforts: Comforts 6.0.4+1.19.2
+		configured: Configured 2.0.0
+		connectivity: Connectivity Mod 1.19.2-4.4
+		continuity: Continuity 2.0.2+1.19
+		controlling: Controlling For Fabric 10.0+7
+		corgilib: CorgiLib 1.0.0.34
+			com_electronwill_night-config_core: core 3.6.6
+			com_electronwill_night-config_toml: toml 3.6.6
+		crawl: Crawl 0.11.1
+			mm: Manningham Mills 2.3
+		culturaldelights: Cultural Delights Fabric 0.14.9+1.19.2
+			terraform-wood-api-v1: Terraform Wood API (v1) 4.2.0
+		darkpaintings: DarkPaintings 13.1.5
+		dawn: Dawn API 3.5.0
+		debugify: Debugify 2.8.0
+		deeperdarker: Deeper and Darker 1.1.6
+			customportalapi: Custom Portal Api 0.0.1-beta54-1.19
+			paragon: Paragon 3.0.2
+				org_yaml_snakeyaml: snakeyaml 1.27
+		deepslatecutting: Deepslate Cutting 1.5.0
+		deuf_refabricated: DEUF Refabricated 1.0.0
+		diagonalfences: Diagonal Fences 4.2.5
+		doapi: Lets Do Api 1.1.0
+			blue_endless_jankson: jankson 1.2.1
+		dragonloot: DragonLoot 1.1.2
+		drippyloadingscreen: Drippy Loading Screen 2.2.2
+		dungeons_arise: When Dungeons Arise 2.1.56
+		easyanvils: Easy Anvils 4.0.11
+		easymagic: Easy Magic 4.3.3
+		ecologics: Ecologics 2.1.11
+		edenring: EdenRing 0.6.4
+		elytraslot: Elytra Slot 6.1.1+1.19.2
+		enchdesc: EnchantmentDescriptions 13.0.14
+		entity_model_features: Entity Model Features 0.2.13
+		entity_texture_features: Entity Texture Features 4.4.4
+			org_apache_httpcomponents_httpmime: httpmime 4.5.10
+		entitycollisionfpsfix: Entity Collision FPS Fix 2.0.0.0
+		entityculling: EntityCulling-Fabric 1.6.1-mc1.19.2
+		equipmentcompare: Equipment Compare 1.3.1
+		everycomp: Every Compat 1.19.2-2.4.12
+		expandeddelight: Expanded Delight 0.2.5.2
+		explorify-fabric: Explorify 1.19-1.3.0
+		fabric-api: Fabric API 0.76.0+1.19.2
+			fabric-api-base: Fabric API Base 0.4.15+8f4e8eb390
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.14+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.1.1+16f1e31390
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.2+e415d50e90
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.25+cafc6e8e90
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.5+b35fea8390
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.16+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.1+413cbbc790
+			fabric-commands-v0: Fabric Commands (v0) 0.2.33+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.41+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.2+7c6cd14d90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.3.0+4bc6e26290
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.8+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.3.8+413cbbc790
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.35+0d0f210290
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.4+9244241690
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.34+562bff6e90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.36+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.24+b6b6abb490
+			fabric-item-api-v1: Fabric Item API (v1) 1.6.6+b7d1888890
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.39+9244241690
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.25+5c4fce2890
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.23+df3654b390
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.4+1b46dc7890
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.13+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.16+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.7+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.24+33fbc73890
+			fabric-models-v0: Fabric Models (v0) 0.3.21+c6af733c90
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.11+10eb22f490
+			fabric-networking-v0: Fabric Networking (v0) 0.3.28+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.2.2+d8ef690890
+			fabric-particles-v1: Fabric Particles (v1) 1.0.14+4d0d570390
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.1+413cbbc790
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.32+9244241690
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 1.2.1+1adbf27790
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.8.0+1adbf27790
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.24+df3654b390
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.19+6e0787e690
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.11+4d0d570390
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.27+df3654b390
+			fabric-rendering-v1: Fabric Rendering (v1) 1.12.1+d8ef690890
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.2+aae9039d90
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.8.4+edbdcddb90
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.32+4d0d570390
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.7+1cc24b1b90
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.2+c4f28df590
+			fabric-textures-v0: Fabric Textures (v0) 1.0.24+aeb40ebe90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.6+413cbbc790
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.3+08b73de490
+		fabric-language-kotlin: Fabric Language Kotlin 1.10.0+kotlin.1.9.0
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.9.0
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.9.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.9.0
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.9.0
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.21.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.7.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.7.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.5.1
+		fabricloader: Fabric Loader 0.14.21
+		fallingtree: FallingTree 3.10.0
+		fancymenu: FancyMenu 2.14.7
+		farmersdelight: Farmer's Delight 1.19.2-1.3.10
+		farmersknives: Farmer's Knives 2.4
+		ferritecore: FerriteCore 5.0.3
+		forgeconfigapiport: Forge Config API Port 4.2.11
+		frame: Frame 0.26.1+1.19-fabric
+			frame-api-base: Frame Base 0.2.1+906ebc04a9
+			frame-blocks-v0: Frame Blocks (v0) 0.1.3+233e7428a9
+			frame-config-v0: Frame Config (v0) 0.3.1+0fa45150a9
+			frame-content-registries-v0: Frame Content Registries (v0) 0.4.0+2876b511a9
+			frame-enchantments-v0: Frame Enchantments (v0) 0.1.0+4093105da9
+			frame-game-rules-v0: Frame Game Rules (v0) 0.2.4+e7ce56a6a9
+			frame-items-v0: Frame Items (v0) 0.1.3+906ebc04a9
+			frame-loot-tables-v0: Frame Loot Tables (v0) 0.1.4+4f7341eca9
+			frame-registries-v0: Frame Registries (v0) 0.1.1+0e0ec74ea9
+			frame-rendering-v0: Frame Rendering (v0) 0.1.5+906ebc04a9
+			frame-tabbed-item-groups-v0: Frame Tabbed Item Groups (v0) 0.2.4+0aca9b56a9
+			frame-toymaker-v0: Frame Data Generation Helpers (v0) 0.6.1+b13741c3a9
+			frame-woods-v0: Frame Woods (v0) 0.2.1+6a33fbada9
+		friendsandfoes: Friends&Foes 1.8.5
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.8
+		frostiful: Frostiful 0.5.5
+		ftblibrary: FTB Library 1902.4.0-build.232
+		ftbquests: FTB Quests 1902.4.18-build.244
+			team_reborn_energy: Energy 2.2.0
+		ftbteams: FTB Teams 1902.2.14-build.123
+		fullstackwatchdog: FullStack Watchdog 1.0.1+1.19.2-fabric
+		fwaystones: Fabric Waystones 3.0.8+mc1.19.2
+		galosphere: Galosphere 1.19.2-1.3.0
+		geckolib3: Geckolib 3.1.40
+			com_eliotlash_mclib_mclib: mclib 20
+		geophilic: Geophilic 1.19-2.0.0c
+		go-fish: Go Fish 1.6.0-1.19.1
+		goblintraders: Goblin Traders 1.8.1
+		goodall: Goodall 1.2.0
+		gpumemleakfix: Gpu memory leak fix mod 1.19.2-1.6
+		guardvillagers: Guard Villagers Fabric 1.19.2-1.1.2
+		handcrafted: Handcrafted 2.0.6
+		highlighter: Highlighter 1.1.4
+		iceberg: Iceberg 1.0.46
+		immediatelyfast: ImmediatelyFast 1.1.12
+			net_lenni0451_reflect: Reflect 1.1.0
+		immersive_weathering: Immersive Weathering 1.19.2-1.2.9
+		indium: Indium 1.0.9+mc1.19.2
+		inmis: Inmis 2.7.1-1.19
+			omega-config: OmegaConfig 1.2.3-1.18.1
+		inmisaddon: InmisAddon 1.0.4
+		inventoryhud: Inventory HUD + 3.4.7
+		iris: Iris 1.6.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre12
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		itemfilters: Item Filters 1902.2.9-build.51
+		itemmodelfix: Item Model Fix 1.0.3+1.19
+		jade: Jade 8.7.3
+		jamlib: JamLib 0.6.0+1.19
+		java: Java HotSpot(TM) 64-Bit Server VM 17
+		kambrik: Kambrik 4.0-1.19.2
+		kiwi: Kiwi Lib 8.3.3
+		kleeslabs: KleeSlabs 12.3.0
+		konkrete: Konkrete 1.6.1
+		krypton: Krypton 0.2.1
+			com_velocitypowered_velocity-native: velocity-native 3.1.2-SNAPSHOT
+		lambdabettergrass: LambdaBetterGrass 1.3.0+1.19
+		lambdynlights: LambDynamicLights 2.2.0+1.19.2
+			pride: Pride Lib 1.1.2+1.19
+			spruceui: SpruceUI 4.1.0+1.19.2
+		languagereload: Language Reload 1.5.8+1.19.2
+		lazydfu: LazyDFU 0.1.3
+		leavesbegone: Leaves Be Gone 4.0.1
+		letmedespawn: Let Me Despawn fabric-1.0.2
+		lithium: Lithium 0.11.1
+		logbegone: Log Begone 1.0.6
+		lootintegrations: Loot integration Mod 1.19.2-3.1
+		magnumtorch: Magnum Torch 4.2.2
+		meadow: Meadow 1.2.0
+		memoryleakfix: Memory Leak Fix 1.0.0
+		memorysettings: Memorysettings Mod 1.19.2-5.2
+		midnightlib: MidnightLib 1.0.0
+		mindfuldarkness: Mindful Darkness 4.0.9
+		minecraft: Minecraft 1.19.2
+		modernfix: ModernFix 5.2.5+mc1.19.2
+		modmenu: Mod Menu 4.2.0-beta.2
+		modpack-update-checker: Modpack Update Checker 0.7.0
+		moonlight: Moonlight 1.19.2-2.2.43
+		moreculling: More Culling 1.19.1-0.17.0
+			conditional-mixin: conditional mixin 0.3.0
+		mousetweaks: Mouse Tweaks 2.22
+		naturalist: Naturalist 3.0.3a
+		naturescompass: Nature's Compass 1.19.2-2.1.0-fabric
+		netherchested: Nether Chested 4.0.4
+		netherdepthsupgrade: Nether Depths Upgrade fabric-3.0.0-1.19.2
+		netherportalfix: NetherPortalFix 10.0.1
+		nethersdelight: Nether's Delight 1.0.1
+			disable_custom_worlds_advice: Disable Custom Worlds Advice 3.0
+		nicer-skies: Nicer Skies 1.2.0
+		nightconfigfixes: Night Config Fixes 4.0.7
+		nochatreports: No Chat Reports 1.19.2-v1.13.12
+		notenoughanimations: NotEnoughAnimations 1.6.2
+		onsoulfire: On Soul Fire 1.19-2
+		openpartiesandclaims: Open Parties and Claims 0.19.0
+		overflowingbars: Overflowing Bars 4.0.1
+		owo: oωo 0.9.3+1.19
+		oxidized: Oxidized 1.7.2
+		packetpray: Packetpray 1.0-SNAPSHOT
+		paintings: Paintings++ 10.2.4.0
+		paradise_lost: Paradise Lost 2.1.0-beta+1.19.2
+			gud_recipe_confidence: Recipe Confidence 1.0.2
+			incubus_core: Incubus Core 1.9.4
+			reach-entity-attributes: Reach Entity Attributes 2.3.0
+			satin: Satin 1.8.0
+		patchouli: Patchouli 1.19.2-77-FABRIC
+			fiber: fiber 0.23.0-2
+		paxi: Paxi 1.19.2-Fabric-3.0.1
+		pickupnotifier: Pick Up Notifier 4.2.4
+		ping-wheel: Ping Wheel 1.3.1
+		plushies: Plushie Mod 1.2
+		polymorph: Polymorph 0.46.4+1.19.2
+			cardinal-components-base: Cardinal Components API (base) 5.0.2
+			cardinal-components-block: Cardinal Components API (blocks) 5.0.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.0.2
+			cardinal-components-item: Cardinal Components API (items) 5.0.2
+			spectrelib: SpectreLib 0.12.5+1.19.2
+		promenade: Promenade 2.7.1
+		publicguiannouncement: Public Gui Announcement 4.3.3
+		puzzle: Puzzle 1.4.2-1.19
+			puzzle-base: Puzzle Base 1.4.2-1.19
+			puzzle-gui: Puzzle GUI 1.4.2-1.19
+			puzzle-models: Puzzle Models 1.4.2-1.19
+			puzzle-splashscreen: Puzzle Splash Screen 1.4.2-1.19
+		puzzleslib: Puzzles Lib 4.4.3
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.0.2
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+		quartzelv: Quartz Elevator 2.1.5+1.19
+		reacharound: Reacharound 1.1.2
+		rebind_narrator: Rebind Narrator 2.0.1
+		reeses-sodium-options: Reese's Sodium Options 1.4.9+mc1.19.2-build.67
+		repurposed_structures: Repurposed Structures 6.3.24+1.19.2
+		resourcefullib: Resourceful Lib 1.1.24
+		resourcepackoverrides: Resource Pack Overrides 4.0.4
+		rhino: Rhino 1902.2.2-build.268
+		rightclickharvest: Right Click Harvest 3.2.2+1.19.x-1.20.1-fabric
+		rottencreatures: Rotten Creatures 1.0.1
+		roughly_enough_loot_tables: Roughly Enough Loot Tables 1.19-1.0
+		roughly_enough_trades: Roughly Enough Trades 1.19-1.0
+		roughlyenoughitems: Roughly Enough Items 9.1.628
+			error_notifier: Error Notifier 1.0.9
+		roughlyenoughprofessions: Roughly Enough Professions 1.1.4
+		roughlyenoughresources: Roughly Enough Resources 2.6.0
+		sdrp: Simple Discord Rich Presence 3.0.4-build.27+mc1.19.2
+		seasons: Fabric Seasons 2.2.1+1.19
+		seasonsbygcompat: Fabric Seasons: BYG Compat 1.0-2.0.1.1
+		seasonsdelightcompat: Fabric Seasons: Delight Compat 1.0-1.3.9
+		seasonsextras: Fabric Seasons: Extras 1.2-BETA+1.19
+		seasonsterraformerscompat: Fabric Seasons: Terraformers Compat 1.0
+		serverbrowser: Server Browser 1.1.0
+		skinlayers: 3d Skin Layers 1.5.2-mc1.19.1
+		smarterfarmers: Smarter Farmers 1.19.2-1.7.2
+		smoothchunk: Smooth chunk save Mod 1.19.2-3.0
+		snowrealmagic: Snow! Real Magic! 5.1.1
+		snowundertrees: Snow Under Trees 1.0.0+1.19.2
+		snowyspirit: Snowy Spirit 1.19.2-2.1.10
+		sod: Grass Overhaul (Sod) 23.5.28
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		sodium-extra: Sodium Extra 0.4.16+mc1.19.2-build.90
+			caffeineconfig: CaffeineConfig 1.0.0+1.17
+		sound_physics_remastered: Sound Physics Remastered 1.19.2-1.0.18
+		spirit: Spirit 2.2.6
+		starlight: Starlight 1.1.1+fabric.ae22326
+		starterkit: Starter Kit 5.2
+		stoneworks: Stoneworks 4.0.1
+		strawgolem: Straw Golem 2.0.0-beta.5
+		structory: Structory 1.0.1
+		structory_towers: Structory: Towers 1.0.0
+		structureessentials: Structure Essentials Mod 1.19.2-2.9
+		supplementaries: Supplementaries 1.19.2-2.3.20
+		takesapillage: Takes a Pillage 1.0.4
+		terrablender: TerraBlender 2.0.1.136
+		terrestria: Terrestria 5.0.11
+			terraform-biome-remapper-api-v1: Terraform Biome Remapper API (v1) 4.2.0
+			terraform-config-api-v1: Terraform Config API (v1) 4.2.0
+			terraform-dirt-api-v1: Terraform Dirt API (v1) 4.2.0
+			terraform-shapes-api-v1: Terraform Shapes API (v1) 4.2.0
+			terraform-surfaces-api-v1: Terraform Surfaces API (v1) 4.2.0
+			terraform-tree-api-v1: Terraform Tree API (v1) 4.2.0
+			terrestria-client: Terrestria: Client 5.0.11
+			terrestria-common: Terrestria: Common 5.0.11
+			terrestria-worldgen: Terrestria: World Generation 5.0.11
+		the_bumblezone: The Bumblezone - Fabric 6.7.26+1.19.2
+			fake-player-api: Fake Player API 0.5.0
+		thermoo: Thermoo 1.4
+		thonkutil: ThonkUtil 2.15.4+1.19
+			thonkutil-base: ThonkUtil Base 1.13.2+4a8c408a57
+			thonkutil-capes-v1: ThonkUtil Capes (v1) 1.4.2+3eb2749857
+			thonkutil-coords-v1: ThonkUtil Coords (v1) 1.1.2+8ff533c957
+			thonkutil-customization-v1: ThonkUtil Customization (v1) 1.1.2+8ff533c957
+			thonkutil-legacy: ThonkUtil Legacy 1.1.2+5d4263f557
+			thonkutil-modchecker-v1: ThonkUtil ModChecker (v1) 1.1.3+bd4b387957
+			thonkutil-potions-v0: ThonkUtil Potions (v0) 1.5.2+8ff533c957
+			thonkutil-titlescreen-v1: ThonkUtil TitleScreen (v1) 1.2.2+8ff533c957
+			thonkutil-trades-v1: ThonkUtil Trades (v1) 1.2.2+8ff533c957
+		tipsmod: Tips 8.0.27
+		toms_storage: Tom's Simple Storage Mod 1.5.8
+		toolstats: ToolStats 12.1.4
+		tradingpost: Trading Post 4.2.0
+		transparent: Transparent 5.1.2
+		trinkets: Trinkets 3.4.2
+		twigs: Twigs 3.0.0
+		twilightforest: The Twilight Forest 4.2.357
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			here-be-no-dragons: Here be no Dragons! 1.0.0
+			javax_annotation_javax_annotation-api: javax.annotation-api 1.3.2
+			porting_lib: Porting Lib 2.1.727+1.19.2
+				forge_tags: Porting Lib Tags 3.0
+				porting_lib_accessors: Porting Lib Accessors 2.1.727+1.19.2
+				porting_lib_attributes: Porting Lib Attributes 2.1.727+1.19.2
+				porting_lib_base: Porting Lib Base 2.1.727+1.19.2
+				porting_lib_common: Porting Lib Common 2.1.727+1.19.2
+				porting_lib_constants: Porting Lib Constants 2.1.727+1.19.2
+				porting_lib_entity: Porting Lib Entity 2.1.727+1.19.2
+				porting_lib_extensions: Porting Lib Extensions 2.1.727+1.19.2
+				porting_lib_fake_players: Porting Lib Fake Players 2.1.727+1.19.2
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.1.727+1.19.2
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.727+1.19.2
+				porting_lib_model_loader: Porting Lib Model Loader 2.1.727+1.19.2
+				porting_lib_models: Porting Lib Models 2.1.727+1.19.2
+				porting_lib_networking: Porting Lib Networking 2.1.727+1.19.2
+				porting_lib_obj_loader: Porting Lib Obj Loader 2.1.727+1.19.2
+				porting_lib_transfer: Porting Lib Transfer 2.1.727+1.19.2
+				serialization_hooks: Serialization Hooks 0.3.26
+		universal_ores: Universal Ores 1.4.2
+		variantcraftingtables: Variant Crafting Tables 3.3.3
+		veinmining: Vein Mining 1.1.1+1.19.2
+		villagernames: Villager Names 4.5.1
+			cardinal-components-level: Cardinal Components API (world saves) 5.0.2
+		villagersplus: Villagers Plus 1.9
+		vinery: Vinery 1.3.7
+		visuality: Visuality 0.5.6
+		visualworkbench: Visual Workbench 4.2.4
+		voidtotem: Void Totem 2.1.0
+		voidz: VoidZ 1.0.9
+		winterly: Winterly 0.8.3
+		wolfarmorcompat: Wolf Armor Compat 1.0.2-1.19.2
+		wolveswitharmor: Wolves With Armor 1.8.0-1.19
+			maybe-data: Maybe data 1.3.2-1.19-rc2
+			static-content: Static Content 1.0.1-1.16.2
+				staticdata: Static Data 1.1.2
+		wondrouswilds: Wondrous Wilds 1.19.2-1.1.6
+		xaerominimap: Xaero's Minimap 23.5.0
+		xaeroworldmap: Xaero's World Map 1.30.6
+		xlpackets: XLPackets 1.19.2-4
+		xp_storage: XP Storage 1.4.3+1.19
+		xp_storage_trinkets: XP Storage - Trinkets 0.1+1.19
+		yet-another-config-lib: YetAnotherConfigLib 2.2.0-for-1.19.2
+		yigd: You're in Grave Danger 1.4.9
+		yosbr: YOSBR 0.1.2
+		ysns: You Shall Not Spawn! 1.0.3
+		yungsapi: YUNG's API 1.19.2-Fabric-3.8.9
+			org_javassist_javassist: javassist 3.28.0-GA
+		yungsbridges: YUNG's Bridges 1.19.2-Fabric-3.1.0
+		zoomify: Zoomify 2.9.0
+			dev_isxander_settxi_settxi-core: settxi-core 2.10.5
+			dev_isxander_settxi_settxi-gui: settxi-gui 2.10.5
+			dev_isxander_settxi_settxi-kotlinx-serialization: settxi-kotlinx-serialization 2.10.5
+			settxi-gui-yacl: Settxi Gui (YetAnotherConfigLib) 2.10.5
+	Launched Version: Better MC [FABRIC] 1.19.2
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: Unknown
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
