@@ -1,0 +1,262 @@
+[authlib-injector] [INFO] Logging file: D:\mc\启动器\.minecraft\versions\彼岸服务端\authlib-injector.log
+[authlib-injector] [INFO] Version: 1.2.3
+[authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil/
+[12:34:31] [main/INFO]: ModLauncher running: args [--username, 9573max, --version, 彼岸服务端, --gameDir, D:\mc\启动器\.minecraft\versions\彼岸服务端, --assetsDir, D:\mc\启动器\.minecraft\assets, --assetIndex, 1.19, --uuid, b0eec244844e4a578300741c0854a67e, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.5.5, --width, 854, --height, 480, --launchTarget, forgeclient, --fml.forgeVersion, 43.2.21, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[12:34:31] [main/INFO]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 19.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[12:34:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/mc/启动器/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2397!/ Service=ModLauncher Env=CLIENT
+[2023-08-04 12:34:32] [INFO]: I18nUpdate Mod 3.5.0 is loaded in 1.19.2 with Forge
+[2023-08-04 12:34:32] [INFO]: Converting: C:\Users\cai\.i18nupdatemod\1.19.3\Minecraft-Mod-Language-Modpack-1-19.zip
+[2023-08-04 12:34:32] [INFO]: Converting: C:\Users\cai\.i18nupdatemod\1.18.2\Minecraft-Mod-Language-Modpack-1-18.zip
+[2023-08-04 12:34:34] [INFO]: Converted: [C:\Users\cai\.i18nupdatemod\1.19.3\Minecraft-Mod-Language-Modpack-1-19.zip, C:\Users\cai\.i18nupdatemod\1.18.2\Minecraft-Mod-Language-Modpack-1-18.zip] -> C:\Users\cai\.i18nupdatemod\1.19.2\Minecraft-Mod-Language-Modpack-Converted-1.19.2.zip
+[2023-08-04 12:34:34] [INFO]: Synchronized: C:\Users\cai\.i18nupdatemod\1.19.2\Minecraft-Mod-Language-Modpack-Converted-1.19.2.zip -> D:\mc\启动器\.minecraft\versions\彼岸服务端\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.19.2.zip
+[12:34:34] [main/INFO]: Found mod file 3dskinlayers-forge-1.5.2-mc1.19.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file [Universal]Immersive Structures-2.0.7a.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file [Universal]Immersive_Structure_Nether_v1.0.0b.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file AdLods-1.19.2-7.0.8.1-build.0865.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file AI-Improvements-1.19.2-0.5.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file appleskin-forge-mc1.19-2.4.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file architectury-6.5.85-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file balm-forge-1.19.2-4.5.7.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file BBOutlineReloaded-2.6-1.19.2-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file betterfpsdist-1.19.2-2.9.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file blossom-forge-1.19.2-1.0.7.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file blueprint-1.19.2-6.1.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Bookshelf-Forge-1.19.2-16.3.20.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file brrp-forge-1.0.1-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file caelus-forge-1.19.2-3.0.0.6.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file canary-mc1.19.2-0.2.8.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file chunksending-1.19.2-2.6.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file cloth-config-8.2.88-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Clumps-forge-1.19.2-9.0.0+14.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file constructionwand-1.19.2-2.10.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file create-1.19.2-0.5.1.c.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file create_crystal_clear-0.2.1-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file create_enchantment_industry-1.19.2-for-create-0.5.1.c-1.2.6.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file create_jetpack-forge-3.2.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file createsifter-1.19.2-1.6.1.c-36.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file CreeperHeal-1.19-2.0.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ctov-3.2.5.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file CullLessLeaves-Reforged-1.0.5.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file curios-forge-1.19.2-5.1.4.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file curtain-mc1.19.2-1.2.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file CustomSkinLoader_ForgeActive-14.16.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file deepslategenerator-1.1.0-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file DetailArmorBar-2.6.4+1.19.2-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file diet-forge-2.0.0+1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file dynamiclightsreforged-1.19.2_v1.4.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file EasierVillagerTrading-forge-1.19.2-1.2.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file elytraslot-forge-6.1.1+1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Entity_Collision_FPS_Fix-forge-1.19-2.0.0.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Fallingleaves-1.19.1-1.3.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file FarmersDelight-1.19.2-1.2.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file FarmersRespite-1.19-2.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file FastLeafDecay-30.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ferritecore-5.0.3-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ForgeEndertech-1.19.2-10.0.6.1-build.0897.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file FpsReducer2-forge-1.19.2-2.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ftb-essentials-forge-1902.3.2-build.85.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ftb-library-forge-1902.4.1-build.236.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ftb-ultimine-forge-1902.4.0-build.77.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file goblintraders-1.8.0-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file HopoBetterRuinedPortals-[1.20-1.20.1]-1.3.6.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file illagersweararmor-1.2.6-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file ImmediatelyFastReforged-1.19.2-1.1.12.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file immersive_aircraft-0.5.1+1.19.2-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file improvedvanilla-forge-1.19.2-1.6.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file InfinityMending-1.19-0.2.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file inventorio-1.19-forge-1.9.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file InventoryProfilesNext-forge-1.19-1.10.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file invhud.forge.1.19-3.4.7.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file InvMove-1.19-0.8.2-Forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Jade-1.19.1-forge-8.8.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file JadeAddons-1.19.2-forge-3.5.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file jei-1.19.2-forge-11.6.0.1016.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file JER-Integration-4.4.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file JustEnoughResources-1.19.2-1.2.2.200.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file justhammers-forge-1.0.0+mc1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file kotlinforforge-3.12.0-all.jar of type LIBRARY with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file libIPN-forge-1.19-3.0.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file lightspeed-1.19.2-1.0.5.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file liquidburner-1.19.2-0.4.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file malilib-forge-1.19.2-0.15.2-dev.20230327.231500.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file mcwifipnp-1.6.2-1.19.2-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file minihud-forge-1.19.2-0.23.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file modernfix-forge-5.5.1+mc1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file moonlight-1.19.2-2.2.43-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file morevillagers-forge-1.19-4.0.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file MouseTweaks-forge-mc1.19-2.23.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file NekosEnchantedBooks-1.19-1.8.0.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file NoChatReports-FORGE-1.19.2-v1.5.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file oculus-flywheel-compat-1.19.2-0.2.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file oculus-mc1.19.2-1.6.4.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file pipez-1.19.2-1.1.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file puffish_skills-0.4.0-1.19.2-forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file PuzzlesLib-v4.4.3-1.19.2-Forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file rubidium-0.6.2b.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file rubidium-extra-0.4.17+mc1.19.2-build.71.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file rubidium_extras-1.19.2_v1.4.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file savage_and_ravage-1.19.2-5.0.4.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file SereneSeasons-1.19.2-8.1.0.24.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file simplyswords-forge-1.47.0-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file smallships-forge-1.19.2-2.0.0-a2.3.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file smoothboot(reloaded)-mc1.19.2-0.0.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file sophisticatedbackpacks-1.19.2-3.18.55.889.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file sophisticatedcore-1.19.2-0.5.83.394.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file supplementaries-1.19.2-2.3.20.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file takesapillage-1.0.3-1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file TextruesRubidiumOptions-1.0.5-mc1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Trajectory Preview-4.5.2-1.19.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file tweakeroo-forge-1.19.2-0.16.0-20230401.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file UniversalEnchants-v4.2.15-1.19.2-Forge.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file waveycapes-forge-1.3.2-mc1.19.2.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file Xaeros_Minimap_23.6.0_Forge_1.19.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:34] [main/INFO]: Found mod file XaerosWorldMap_1.31.0_Forge_1.19.1.jar of type MOD with provider {mods folder locator at D:\mc\启动器\.minecraft\versions\彼岸服务端\mods}
+[12:34:35] [main/WARN]: Mod file D:\mc\启动器\.minecraft\libraries\net\minecraftforge\fmlcore\1.19.2-43.2.21\fmlcore-1.19.2-43.2.21.jar is missing mods.toml file
+[12:34:35] [main/WARN]: Mod file D:\mc\启动器\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.2.21\javafmllanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12:34:35] [main/WARN]: Mod file D:\mc\启动器\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.2.21\lowcodelanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12:34:35] [main/WARN]: Mod file D:\mc\启动器\.minecraft\libraries\net\minecraftforge\mclanguage\1.19.2-43.2.21\mclanguage-1.19.2-43.2.21.jar is missing mods.toml file
+[12:34:35] [main/INFO]: Found mod file fmlcore-1.19.2-43.2.21.jar of type LIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found mod file javafmllanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found mod file lowcodelanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found mod file mclanguage-1.19.2-43.2.21.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found mod file client-1.19.2-20220805.130853-srg.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found mod file forge-1.19.2-43.2.21-universal.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@20999517
+[12:34:35] [main/INFO]: Found 10 dependencies adding them to mods collection
+[12:34:35] [main/INFO]: Found mod file flightlib-forge-1.0.5.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file kffmod-3.12.0.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file kfflib-3.12.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file flywheel-forge-1.19.2-0.6.9-18.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file Reflect-1.1.0.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file create_dragon_lib-1.19.2-1.2.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file ColaMixinConfig-v1.0.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file Registrate-MC1.19-1.1.5.jar of type GAMELIBRARY with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file kfflang-3.12.0.jar of type LANGPROVIDER with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:35] [main/INFO]: Found mod file spectrelib-forge-0.12.4+1.19.2.jar of type MOD with provider net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@2785db06
+[12:34:40] [main/ERROR]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[12:34:40] [main/INFO]: Compatibility level set to JAVA_17
+[12:34:40] [main/ERROR]: Mixin config justhammers.mixins.json does not specify "minVersion" property
+[12:34:41] [main/INFO]: Successfully loaded Mixin Connector [com.aizistral.nochatreports.MixinConnector]
+[12:34:41] [main/INFO]: Launching target 'forgeclient' with arguments [--version, 彼岸服务端, --gameDir, D:\mc\启动器\.minecraft\versions\彼岸服务端, --assetsDir, D:\mc\启动器\.minecraft\assets, --uuid, b0eec244844e4a578300741c0854a67e, --username, 9573max, --assetIndex, 1.19, --accessToken, ❄❄❄❄❄❄❄❄, --clientId, ${clientid}, --xuid, ${auth_xuid}, --userType, msa, --versionType, HMCL 3.5.5, --width, 854, --height, 480]
+[12:34:41] [main/INFO]: Loaded configuration file for Rubidium: 30 options available, 0 override(s) found
+[12:34:41] [main/INFO]: Loaded configuration file for ModernFix 5.5.1+mc1.19.2: 64 options available, 2 override(s) found
+[12:34:42] [main/WARN]: Option 'mixin.bugfix.item_cache_flag' overriden (by mods [canary]) to 'false'
+[12:34:42] [main/WARN]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[12:34:42] [main/INFO]: Applying Nashorn fix
+[12:34:42] [main/INFO]: Applied Forge config corruption patch
+[12:34:42] [main/WARN]: Reference map 'easiervillagertrading.refmap.json' for easiervillagertrading.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'easiervillagertrading.refmap.json' for easiervillagertrading.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/INFO]: OptiFine was NOT detected.
+[12:34:42] [main/INFO]: OptiFabric was NOT detected.
+[12:34:42] [main/WARN]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'justhammers-forge-forge-refmap.json' for justhammers.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'create_crystal_clear.refmap.json' for create_crystal_clear.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'smallships-forge-refmap.json' for smallships.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'simplyswords-common-refmap.json' for simplyswords-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'simplyswords-forge-refmap.json' for simplyswords.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/WARN]: Reference map 'createsifter.refmap.json' for createsifter.mixins.json could not be read. If this is a development environment you can ignore this message
+[12:34:42] [main/INFO]: Loaded configuration file for Sodium Extra: 28 options available, 0 override(s) found
+[12:34:42] [main/WARN]: Option 'mixin.world.block_entity_ticking.world_border' requires 'mixin.util.world_border_listener=true' but found 'false'. Setting 'mixin.world.block_entity_ticking.world_border=false'.
+[12:34:42] [main/INFO]: Loaded configuration file for Canary: 124 options available, 0 override(s) found
+net.minecraft.world.level.block.entity.BlockEntityType --- dev.lambdaurora.lambdynlights.mixin.BlockEntityTypeMixin
+net.minecraft.client.multiplayer.ClientLevel --- dev.lambdaurora.lambdynlights.mixin.ClientWorldMixin
+net.minecraft.client.renderer.LevelRenderer --- dev.lambdaurora.lambdynlights.mixin.CommonWorldRendererMixin
+net.minecraft.client.gui.components.DebugScreenOverlay --- dev.lambdaurora.lambdynlights.mixin.DebugHudMixin
+net.minecraft.client.renderer.entity.EntityRenderer --- dev.lambdaurora.lambdynlights.mixin.EntityRendererMixin
+net.minecraft.world.entity.EntityType --- dev.lambdaurora.lambdynlights.mixin.EntityTypeMixin
+net.minecraft.client.Minecraft --- dev.lambdaurora.lambdynlights.mixin.MinecraftClientMixin
+net.minecraft.world.level.Level --- dev.lambdaurora.lambdynlights.mixin.WorldMixin
+net.minecraft.client.renderer.LevelRenderer --- dev.lambdaurora.lambdynlights.mixin.WorldRendererMixin
+net.minecraft.world.entity.decoration.HangingEntity --- dev.lambdaurora.lambdynlights.mixin.lightsource.AbstractDecorationEntityMixin
+net.minecraft.world.entity.vehicle.AbstractMinecart --- dev.lambdaurora.lambdynlights.mixin.lightsource.AbstractMinecartEntityMixin
+net.minecraft.world.level.block.entity.BlockEntity --- dev.lambdaurora.lambdynlights.mixin.lightsource.BlockEntityMixin
+net.minecraft.world.entity.Entity --- dev.lambdaurora.lambdynlights.mixin.lightsource.EntityMixin
+net.minecraft.world.entity.projectile.AbstractHurtingProjectile --- dev.lambdaurora.lambdynlights.mixin.lightsource.ExplosiveProjectileEntityMixin
+net.minecraft.world.entity.LivingEntity --- dev.lambdaurora.lambdynlights.mixin.lightsource.LivingEntityMixin
+net.minecraft.world.entity.player.Player --- dev.lambdaurora.lambdynlights.mixin.lightsource.PlayerEntityMixin
+net.minecraft.world.entity.item.PrimedTnt --- dev.lambdaurora.lambdynlights.mixin.lightsource.TntEntityMixin
+me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI --- dev.lambdaurora.lambdynlights.mixin.sodium.SodiumSettingsMixin
+[Serene Seasons Transformer]: Transforming m_47480_ (Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Z)Z in net/minecraft/world/level/biome/Biome
+[Serene Seasons Transformer]: Patched 1 calls
+[Serene Seasons Transformer]: Transforming m_47519_ (Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z in net/minecraft/world/level/biome/Biome
+[Serene Seasons Transformer]: Successfully patched shouldSnow
+[Serene Seasons Transformer]: Transforming m_8714_ (Lnet/minecraft/world/level/chunk/LevelChunk;I)V in net/minecraft/server/level/ServerLevel
+[Serene Seasons Transformer]: Successfully patched tickChunk
+[12:34:46] [main/INFO]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
+[12:34:46] [main/INFO]: bre2el.fpsreducer.mixin.WindowMixin will NOT be applied because OptiFine was NOT detected.
+[12:34:46] [main/WARN]: Inventory Profiles Next: Doing our own dependency resolving! Because Forge is being Forge....: https://github.com/MinecraftForge/MinecraftForge/issues/9088
+[authlib-injector] [INFO] Transformed [net.minecraft.client.main.Main] with [Main Arguments Transformer]
+[12:34:49] [pool-4-thread-1/INFO]: ModernFix bootstrap
+[Serene Seasons Transformer]: Transforming m_8714_ (Lnet/minecraft/world/level/chunk/LevelChunk;I)V in net/minecraft/server/level/ServerLevel
+[Serene Seasons Transformer]: Successfully patched tickChunk
+[12:34:50] [pool-4-thread-1/INFO]: Mixing server.MixinPlayer from nochatreports.mixins.json into net.minecraft.world.entity.player.Player
+[12:34:51] [pool-4-thread-1/INFO]: Vanilla bootstrap took 1900 milliseconds
+[Serene Seasons Transformer]: Transforming m_8107_ ()V in net/minecraft/world/entity/animal/SnowGolem
+[Serene Seasons Transformer]: Patched 1 calls
+[12:34:53] [pool-4-thread-1/WARN]: Error loading class: com/cupboard/config/CupboardConfig (java.lang.ClassNotFoundException: com.cupboard.config.CupboardConfig)
+Exception in thread "main" java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.21/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	... 7 more
+Caused by: java.lang.RuntimeException: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/fmlloader@1.19.2-43.2.21/net.minecraftforge.fml.loading.BackgroundWaiter.runAndTick(BackgroundWaiter.java:29)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.m_239872_(Main.java:145)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.main(Main.java:51)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 10 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.ai.sensing.SensorType.<clinit>(SensorType.java:16)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.animal.frog.Tadpole.<clinit>(Tadpole.java:47)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.entity.EntityType.<clinit>(EntityType.java:252)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.feature.MonsterRoomFeature.<clinit>(MonsterRoomFeature.java:26)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.world.level.levelgen.feature.Feature.<clinit>(Feature.java:81)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.worldgen.features.AquaticFeatures.<clinit>(AquaticFeatures.java:20)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.worldgen.features.FeatureUtils.m_236677_(FeatureUtils.java:24)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236009_(BuiltinRegistries.java:87)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.m_236004_(BuiltinRegistries.java:114)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:729)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.data.BuiltinRegistries.<clinit>(BuiltinRegistries.java:113)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.core.Registry.<clinit>(Registry.java:665)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:43)
+	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.lambda$run$0(Main.java:145)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.spongepowered.asm.mixin.throwables.ClassMetadataNotFoundException: com.cupboard.config.CupboardConfig
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMethod(MixinPreProcessorStandard.java:754)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:739)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:310)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:280)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1288)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:292)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:383)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:365)
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363)
+	... 32 more
